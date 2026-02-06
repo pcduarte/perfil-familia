@@ -1,5 +1,11 @@
 C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\wwwroot\404.html
 C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\wwwroot\index.html
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\docs\data\animais.json
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\docs\data\coisas.json
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\docs\data\lugares.json
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\docs\data\objetos.json
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\docs\data\pessoas.json
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\docs\sample-data\weather.json
 C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\PerfilFamilia.runtimeconfig.json
 C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\dotnet.js
 C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\web.config

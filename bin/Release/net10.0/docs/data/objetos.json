@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "categoria": "Objeto",
+    "resposta": "MOCHILA",
+    "pistas": [
+      "Uso diario",
+      "Vai nas costas",
+      "Carrega coisas",
+      "Tem alcas",
+      "Muito usada por estudantes",
+      "E de tecido",
+      "Tem bolsos",
+      "Vai para escola",
+      "Pode ser grande",
+      "Guarda livros"
+    ]
+  },
+  {
+    "id": 2,
+    "categoria": "Objeto",
+    "resposta": "GARRAFA",
+    "pistas": [
+      "Guarda liquido",
+      "Pode ser de plastico",
+      "Tem tampa",
+      "Usada no dia a dia",
+      "Pode ser reutilizavel",
+      "Serve para beber agua",
+      "Cabe na mochila",
+      "Tem varios tamanhos",
+      "Pode ser termica",
+      "Pode ter alca"
+    ]
+  },
+  {
+    "id": 3,
+    "categoria": "Objeto",
+    "resposta": "CADERNO",
+    "pistas": [
+      "Usado para escrever",
+      "Tem folhas",
+      "Pode ter espiral",
+      "Muito usado na escola",
+      "Cabe em uma mochila",
+      "Pode ter capa dura",
+      "Tem linhas",
+      "Usado para anotar",
+      "Pode ser pequeno",
+      "Pode ser colorido"
+    ]
+  },
+  {
+    "id": 4,
+    "categoria": "Objeto",
+    "resposta": "RELOGIO",
+    "pistas": [
+      "Mostra as horas",
+      "Pode ficar no pulso",
+      "Tem ponteiros",
+      "Pode ser digital",
+      "Serve para marcar o tempo",
+      "Pode ter alarme",
+      "Pode ser de pulso",
+      "Pode ser de parede",
+      "Ajuda a nao se atrasar",
+      "Pode ser inteligente"
+    ]
+  }
+]

@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "categoria": "Animal",
+    "resposta": "CACHORRO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é onívoro",
+      "Uma característica: late",
+      "Vive em ambiente doméstico",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 2,
+    "categoria": "Animal",
+    "resposta": "GATO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: mia",
+      "Vive em ambiente doméstico",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 3,
+    "categoria": "Animal",
+    "resposta": "CAVALO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: corre rápido",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 4,
+    "categoria": "Animal",
+    "resposta": "VACA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: produz leite",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 5,
+    "categoria": "Animal",
+    "resposta": "PORCO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é onívoro",
+      "Uma característica: focinho forte",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 6,
+    "categoria": "Animal",
+    "resposta": "CABRA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: adora escalar",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 7,
+    "categoria": "Animal",
+    "resposta": "OVELHA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: tem lã",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 8,
+    "categoria": "Animal",
+    "resposta": "COELHO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: orelhas longas",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 9,
+    "categoria": "Animal",
+    "resposta": "LEÃO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: rugido forte",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 10,
+    "categoria": "Animal",
+    "resposta": "TIGRE",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: listras",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 11,
+    "categoria": "Animal",
+    "resposta": "LOBO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: vive em alcateia",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 12,
+    "categoria": "Animal",
+    "resposta": "RAPOSA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é onívoro",
+      "Uma característica: cauda fofa",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 13,
+    "categoria": "Animal",
+    "resposta": "URSO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é onívoro",
+      "Uma característica: pode hibernar",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 14,
+    "categoria": "Animal",
+    "resposta": "PANDA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: come bambu",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 15,
+    "categoria": "Animal",
+    "resposta": "COALA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: vive em árvores",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 16,
+    "categoria": "Animal",
+    "resposta": "CANGURU",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: salta",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 17,
+    "categoria": "Animal",
+    "resposta": "GIRAFA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: pescoço longo",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 18,
+    "categoria": "Animal",
+    "resposta": "ZEBRA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: listras",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 19,
+    "categoria": "Animal",
+    "resposta": "ELEFANTE",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: tem tromba",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 20,
+    "categoria": "Animal",
+    "resposta": "RINOCERONTE",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: tem chifre",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 21,
+    "categoria": "Animal",
+    "resposta": "HIPOPÓTAMO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: vive na água",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 22,
+    "categoria": "Animal",
+    "resposta": "VEADO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: tem galhos",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 23,
+    "categoria": "Animal",
+    "resposta": "ALCE",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: galhos grandes",
+      "Vive em ambiente frio",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 24,
+    "categoria": "Animal",
+    "resposta": "BISÃO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: corpo robusto",
+      "Vive em ambiente planícies",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 25,
+    "categoria": "Animal",
+    "resposta": "JAGUAR",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: manchas",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 26,
+    "categoria": "Animal",
+    "resposta": "PUMA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: ágil",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 27,
+    "categoria": "Animal",
+    "resposta": "CAPIVARA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: vive perto de rios",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 28,
+    "categoria": "Animal",
+    "resposta": "TATU",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é onívoro",
+      "Uma característica: carapaça",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 29,
+    "categoria": "Animal",
+    "resposta": "TAMANDUÁ",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é insetívoro",
+      "Uma característica: língua longa",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 30,
+    "categoria": "Animal",
+    "resposta": "MORCEGO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é insetívoro",
+      "Uma característica: voa",
+      "Vive em ambiente cavernas",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 31,
+    "categoria": "Animal",
+    "resposta": "GALINHA",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: bota ovos",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 32,
+    "categoria": "Animal",
+    "resposta": "GALO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: canta ao amanhecer",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 33,
+    "categoria": "Animal",
+    "resposta": "PATO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: nada",
+      "Vive em ambiente lagos",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 34,
+    "categoria": "Animal",
+    "resposta": "GANSO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: vive em grupo",
+      "Vive em ambiente lagos",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 35,
+    "categoria": "Animal",
+    "resposta": "PERU",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: tem penas grandes",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 36,
+    "categoria": "Animal",
+    "resposta": "POMBO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é granívoro",
+      "Uma característica: vive em cidades",
+      "Vive em ambiente urbano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 37,
+    "categoria": "Animal",
+    "resposta": "BEIJA-FLOR",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é nectarívoro",
+      "Uma característica: bate asas rápido",
+      "Vive em ambiente aéreo",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 38,
+    "categoria": "Animal",
+    "resposta": "TUCANO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é frugívoro",
+      "Uma característica: bico grande",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 39,
+    "categoria": "Animal",
+    "resposta": "PAPAGAIO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é frugívoro",
+      "Uma característica: imita sons",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 40,
+    "categoria": "Animal",
+    "resposta": "CORUJA",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é carnívoro",
+      "Uma característica: noturna",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 41,
+    "categoria": "Animal",
+    "resposta": "ÁGUIA",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é carnívoro",
+      "Uma característica: voa alto",
+      "Vive em ambiente montanhas",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 42,
+    "categoria": "Animal",
+    "resposta": "FALCÃO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é carnívoro",
+      "Uma característica: mergulha rápido",
+      "Vive em ambiente aéreo",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 43,
+    "categoria": "Animal",
+    "resposta": "CISNE",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: pescoço longo",
+      "Vive em ambiente lagos",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 44,
+    "categoria": "Animal",
+    "resposta": "GARÇA",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é carnívoro",
+      "Uma característica: pernas longas",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 45,
+    "categoria": "Animal",
+    "resposta": "ANDORINHA",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é insetívoro",
+      "Uma característica: voo rápido",
+      "Vive em ambiente aéreo",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 46,
+    "categoria": "Animal",
+    "resposta": "COBRA",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é carnívoro",
+      "Uma característica: corpo alongado",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 47,
+    "categoria": "Animal",
+    "resposta": "LAGARTO",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é insetívoro",
+      "Uma característica: cauda longa",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 48,
+    "categoria": "Animal",
+    "resposta": "IGUANA",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é herbívoro",
+      "Uma característica: gosta de sol",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 49,
+    "categoria": "Animal",
+    "resposta": "JACARÉ",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é carnívoro",
+      "Uma característica: vive em rios",
+      "Vive em ambiente aquático",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 50,
+    "categoria": "Animal",
+    "resposta": "CROCODILO",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é carnívoro",
+      "Uma característica: mandíbulas fortes",
+      "Vive em ambiente aquático",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 51,
+    "categoria": "Animal",
+    "resposta": "TARTARUGA",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é herbívoro",
+      "Uma característica: tem casco",
+      "Vive em ambiente aquático",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 52,
+    "categoria": "Animal",
+    "resposta": "SAPO",
+    "pistas": [
+      "É um animal",
+      "É um anfíbio",
+      "Sua alimentação é insetívoro",
+      "Uma característica: pula",
+      "Vive em ambiente úmido",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 53,
+    "categoria": "Animal",
+    "resposta": "RÃ",
+    "pistas": [
+      "É um animal",
+      "É um anfíbio",
+      "Sua alimentação é insetívoro",
+      "Uma característica: coaxa",
+      "Vive em ambiente úmido",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 54,
+    "categoria": "Animal",
+    "resposta": "SALAMANDRA",
+    "pistas": [
+      "É um animal",
+      "É um anfíbio",
+      "Sua alimentação é insetívoro",
+      "Uma característica: pele úmida",
+      "Vive em ambiente úmido",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 55,
+    "categoria": "Animal",
+    "resposta": "TUBARÃO",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é carnívoro",
+      "Uma característica: dentes afiados",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 56,
+    "categoria": "Animal",
+    "resposta": "GOLFINHO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: inteligente",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 57,
+    "categoria": "Animal",
+    "resposta": "BALEIA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: muito grande",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 58,
+    "categoria": "Animal",
+    "resposta": "FOCA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: bigodes",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 59,
+    "categoria": "Animal",
+    "resposta": "PEIXE-PALHAÇO",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é onívoro",
+      "Uma característica: colorido",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 60,
+    "categoria": "Animal",
+    "resposta": "SARDINHA",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é onívoro",
+      "Uma característica: vive em cardumes",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 61,
+    "categoria": "Animal",
+    "resposta": "SALMÃO",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é onívoro",
+      "Uma característica: migra",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 62,
+    "categoria": "Animal",
+    "resposta": "TILÁPIA",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é onívoro",
+      "Uma característica: água doce",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 63,
+    "categoria": "Animal",
+    "resposta": "CARPA",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é onívoro",
+      "Uma característica: vive em lago",
+      "Vive em ambiente lagos",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 64,
+    "categoria": "Animal",
+    "resposta": "PIRANHA",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é carnívoro",
+      "Uma característica: dentes fortes",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 65,
+    "categoria": "Animal",
+    "resposta": "ABELHA",
+    "pistas": [
+      "É um animal",
+      "É um inseto",
+      "Sua alimentação é nectarívoro",
+      "Uma característica: faz mel",
+      "Vive em ambiente aéreo",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 66,
+    "categoria": "Animal",
+    "resposta": "FORMIGA",
+    "pistas": [
+      "É um animal",
+      "É um inseto",
+      "Sua alimentação é onívoro",
+      "Uma característica: vive em colônias",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 67,
+    "categoria": "Animal",
+    "resposta": "BORBOLETA",
+    "pistas": [
+      "É um animal",
+      "É um inseto",
+      "Sua alimentação é nectarívoro",
+      "Uma característica: tem asas coloridas",
+      "Vive em ambiente aéreo",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 68,
+    "categoria": "Animal",
+    "resposta": "JOANINHA",
+    "pistas": [
+      "É um animal",
+      "É um inseto",
+      "Sua alimentação é onívoro",
+      "Uma característica: pequena e vermelha",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 69,
+    "categoria": "Animal",
+    "resposta": "GAFANHOTO",
+    "pistas": [
+      "É um animal",
+      "É um inseto",
+      "Sua alimentação é herbívoro",
+      "Uma característica: salta",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 70,
+    "categoria": "Animal",
+    "resposta": "CARANGUEJO",
+    "pistas": [
+      "É um animal",
+      "É um crustáceo",
+      "Sua alimentação é onívoro",
+      "Uma característica: anda de lado",
+      "Vive em ambiente praia",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 71,
+    "categoria": "Animal",
+    "resposta": "POLVO",
+    "pistas": [
+      "É um animal",
+      "É um molusco",
+      "Sua alimentação é carnívoro",
+      "Uma característica: oito braços",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 72,
+    "categoria": "Animal",
+    "resposta": "LULA",
+    "pistas": [
+      "É um animal",
+      "É um molusco",
+      "Sua alimentação é carnívoro",
+      "Uma característica: jatos de água",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 73,
+    "categoria": "Animal",
+    "resposta": "ESTRELA-DO-MAR",
+    "pistas": [
+      "É um animal",
+      "É um equinodermo",
+      "Sua alimentação é carnívoro",
+      "Uma característica: tem braços",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 74,
+    "categoria": "Animal",
+    "resposta": "CAVALINHO-MARINHO",
+    "pistas": [
+      "É um animal",
+      "É um peixe",
+      "Sua alimentação é carnívoro",
+      "Uma característica: nada na vertical",
+      "Vive em ambiente oceano",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 75,
+    "categoria": "Animal",
+    "resposta": "URSO-POLAR",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: vive no gelo",
+      "Vive em ambiente polar",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 76,
+    "categoria": "Animal",
+    "resposta": "LOBO-GUARÁ",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é onívoro",
+      "Uma característica: pernas longas",
+      "Vive em ambiente cerrado",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 77,
+    "categoria": "Animal",
+    "resposta": "ONÇA-PINTADA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: manchas",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 78,
+    "categoria": "Animal",
+    "resposta": "ANTA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: focinho longo",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 79,
+    "categoria": "Animal",
+    "resposta": "PREGUIÇA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: anda devagar",
+      "Vive em ambiente árvores",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 80,
+    "categoria": "Animal",
+    "resposta": "ARARA",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é frugívoro",
+      "Uma característica: penas coloridas",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 81,
+    "categoria": "Animal",
+    "resposta": "CANÁRIO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é granívoro",
+      "Uma característica: canta",
+      "Vive em ambiente aéreo",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 82,
+    "categoria": "Animal",
+    "resposta": "CORVO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: inteligente",
+      "Vive em ambiente aéreo",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 83,
+    "categoria": "Animal",
+    "resposta": "LINCE",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: orelhas com tufos",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 84,
+    "categoria": "Animal",
+    "resposta": "GAZELA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: rápida",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 85,
+    "categoria": "Animal",
+    "resposta": "SURICATO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é insetívoro",
+      "Uma característica: vive em tocas",
+      "Vive em ambiente deserto",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 86,
+    "categoria": "Animal",
+    "resposta": "HIENA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: riso característico",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 87,
+    "categoria": "Animal",
+    "resposta": "PINGUIM",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é carnívoro",
+      "Uma característica: não voa",
+      "Vive em ambiente frio",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 88,
+    "categoria": "Animal",
+    "resposta": "AVESTRUZ",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: não voa",
+      "Vive em ambiente savana",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 89,
+    "categoria": "Animal",
+    "resposta": "EMA",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: corre rápido",
+      "Vive em ambiente cerrado",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 90,
+    "categoria": "Animal",
+    "resposta": "JABUTI",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é herbívoro",
+      "Uma característica: tem casco",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 91,
+    "categoria": "Animal",
+    "resposta": "JIBOIA",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é carnívoro",
+      "Uma característica: corpo alongado",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 92,
+    "categoria": "Animal",
+    "resposta": "SUCURI",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é carnívoro",
+      "Uma característica: vive em rios",
+      "Vive em ambiente aquático",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 93,
+    "categoria": "Animal",
+    "resposta": "CAMALEÃO",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é insetívoro",
+      "Uma característica: muda de cor",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 94,
+    "categoria": "Animal",
+    "resposta": "LAGARTIXA",
+    "pistas": [
+      "É um animal",
+      "É um réptil",
+      "Sua alimentação é insetívoro",
+      "Uma característica: pequena",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 95,
+    "categoria": "Animal",
+    "resposta": "ARARA-AZUL",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é frugívoro",
+      "Uma característica: penas azuis",
+      "Vive em ambiente floresta",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 96,
+    "categoria": "Animal",
+    "resposta": "PAVÃO",
+    "pistas": [
+      "É um animal",
+      "É um ave",
+      "Sua alimentação é onívoro",
+      "Uma característica: cauda aberta",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 97,
+    "categoria": "Animal",
+    "resposta": "ORNITORRINCO",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é carnívoro",
+      "Uma característica: bico achatado",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 98,
+    "categoria": "Animal",
+    "resposta": "EQUÍDNA",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é insetívoro",
+      "Uma característica: tem espinhos",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 99,
+    "categoria": "Animal",
+    "resposta": "GAMBÁ",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é onívoro",
+      "Uma característica: cheiro forte",
+      "Vive em ambiente terrestre",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  },
+  {
+    "id": 100,
+    "categoria": "Animal",
+    "resposta": "PEIXE-BOI",
+    "pistas": [
+      "É um animal",
+      "É um mamífero",
+      "Sua alimentação é herbívoro",
+      "Uma característica: vive na água",
+      "Vive em ambiente rios",
+      "É um vertebrado",
+      "Tem hábitos próprios",
+      "Pode ser visto na natureza",
+      "Se locomove de forma característica",
+      "Faz parte dos ecossistemas"
+    ]
+  }
+]
