@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "categoria": "Coisa",
+    "resposta": "MOCHILA",
+    "pistas": [
+      "É um objeto",
+      "tem alças",
+      "carrega materiais",
+      "vai nas costas",
+      "usada na escola",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 2,
+    "categoria": "Coisa",
+    "resposta": "CADERNO",
+    "pistas": [
+      "É um objeto",
+      "tem folhas",
+      "serve para escrever",
+      "pode ter espiral",
+      "usado para anotar",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 3,
+    "categoria": "Coisa",
+    "resposta": "LÁPIS",
+    "pistas": [
+      "É um objeto",
+      "tem ponta",
+      "feito de madeira",
+      "apaga com borracha",
+      "serve para escrever",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 4,
+    "categoria": "Coisa",
+    "resposta": "CANETA",
+    "pistas": [
+      "É um objeto",
+      "usa tinta",
+      "tem tampa",
+      "ponta fina",
+      "serve para escrever",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 5,
+    "categoria": "Coisa",
+    "resposta": "RÉGUA",
+    "pistas": [
+      "É um objeto",
+      "mede linhas",
+      "ajuda a desenhar",
+      "tem marcações",
+      "é reta",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 6,
+    "categoria": "Coisa",
+    "resposta": "BORRACHA",
+    "pistas": [
+      "É um objeto",
+      "apaga escrita",
+      "feita de borracha",
+      "pequena",
+      "usada com lápis",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 7,
+    "categoria": "Coisa",
+    "resposta": "APONTADOR",
+    "pistas": [
+      "É um objeto",
+      "aponta lápis",
+      "tem lâmina",
+      "guarda resíduos",
+      "pequeno",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 8,
+    "categoria": "Coisa",
+    "resposta": "ESTOJO",
+    "pistas": [
+      "É um objeto",
+      "guarda materiais",
+      "tem zíper",
+      "porta lápis",
+      "vai na mochila",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 9,
+    "categoria": "Coisa",
+    "resposta": "LIVRO",
+    "pistas": [
+      "É um objeto",
+      "tem páginas",
+      "conta histórias",
+      "tem capa",
+      "usado para ler",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 10,
+    "categoria": "Coisa",
+    "resposta": "MARCADOR",
+    "pistas": [
+      "É um objeto",
+      "destaca textos",
+      "tem tinta forte",
+      "marca páginas",
+      "é colorido",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 11,
+    "categoria": "Coisa",
+    "resposta": "PANELA",
+    "pistas": [
+      "É um objeto",
+      "vai ao fogo",
+      "cozinha alimentos",
+      "tem tampa",
+      "feita de metal",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 12,
+    "categoria": "Coisa",
+    "resposta": "FRIGIDEIRA",
+    "pistas": [
+      "É um objeto",
+      "frita alimentos",
+      "tem cabo",
+      "vai ao fogão",
+      "fundo largo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 13,
+    "categoria": "Coisa",
+    "resposta": "COLHER",
+    "pistas": [
+      "É um objeto",
+      "ajuda a comer",
+      "tem cabo",
+      "pode ser de metal",
+      "serve para mexer",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 14,
+    "categoria": "Coisa",
+    "resposta": "GARFO",
+    "pistas": [
+      "É um objeto",
+      "tem dentes",
+      "ajuda a comer",
+      "segura alimentos",
+      "tem cabo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 15,
+    "categoria": "Coisa",
+    "resposta": "FACA",
+    "pistas": [
+      "É um objeto",
+      "corta",
+      "tem lâmina",
+      "usa cabo",
+      "serve na cozinha",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 16,
+    "categoria": "Coisa",
+    "resposta": "PRATO",
+    "pistas": [
+      "É um objeto",
+      "serve comida",
+      "é raso",
+      "fica na mesa",
+      "pode ser de cerâmica",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 17,
+    "categoria": "Coisa",
+    "resposta": "COPO",
+    "pistas": [
+      "É um objeto",
+      "serve bebida",
+      "tem boca larga",
+      "pode ser de vidro",
+      "fica na mesa",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 18,
+    "categoria": "Coisa",
+    "resposta": "XÍCARA",
+    "pistas": [
+      "É um objeto",
+      "bebida quente",
+      "tem alça",
+      "usada para café",
+      "pequena",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 19,
+    "categoria": "Coisa",
+    "resposta": "TÁBUA",
+    "pistas": [
+      "É um objeto",
+      "apoia cortes",
+      "usada na cozinha",
+      "pode ser de madeira",
+      "protege a bancada",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 20,
+    "categoria": "Coisa",
+    "resposta": "ESPÁTULA",
+    "pistas": [
+      "É um objeto",
+      "vira alimentos",
+      "tem cabo",
+      "usada na cozinha",
+      "ajuda a mexer",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 21,
+    "categoria": "Coisa",
+    "resposta": "CELULAR",
+    "pistas": [
+      "É um objeto",
+      "faz chamadas",
+      "tem tela",
+      "usa bateria",
+      "acessa internet",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 22,
+    "categoria": "Coisa",
+    "resposta": "NOTEBOOK",
+    "pistas": [
+      "É um objeto",
+      "tem teclado",
+      "é portátil",
+      "usa bateria",
+      "serve para trabalhar",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 23,
+    "categoria": "Coisa",
+    "resposta": "TECLADO",
+    "pistas": [
+      "É um objeto",
+      "tem teclas",
+      "digitação",
+      "usado no computador",
+      "conectado ao PC",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 24,
+    "categoria": "Coisa",
+    "resposta": "MOUSE",
+    "pistas": [
+      "É um objeto",
+      "controla o cursor",
+      "tem botões",
+      "usado no computador",
+      "pequeno",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 25,
+    "categoria": "Coisa",
+    "resposta": "CARREGADOR",
+    "pistas": [
+      "É um objeto",
+      "recarrega bateria",
+      "tem cabo",
+      "usa energia",
+      "acompanha celular",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 26,
+    "categoria": "Coisa",
+    "resposta": "FONE",
+    "pistas": [
+      "É um objeto",
+      "reproduz som",
+      "vai na orelha",
+      "pode ser bluetooth",
+      "usado para ouvir",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 27,
+    "categoria": "Coisa",
+    "resposta": "CÂMERA",
+    "pistas": [
+      "É um objeto",
+      "tira fotos",
+      "tem lente",
+      "usa bateria",
+      "guarda imagens",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 28,
+    "categoria": "Coisa",
+    "resposta": "RELÓGIO",
+    "pistas": [
+      "É um objeto",
+      "mostra as horas",
+      "tem ponteiros",
+      "pode ser digital",
+      "ajuda no tempo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 29,
+    "categoria": "Coisa",
+    "resposta": "CONTROLE REMOTO",
+    "pistas": [
+      "É um objeto",
+      "comanda aparelhos",
+      "tem botões",
+      "usa pilha",
+      "aponta para a TV",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 30,
+    "categoria": "Coisa",
+    "resposta": "TABLET",
+    "pistas": [
+      "É um objeto",
+      "tela sensível",
+      "usa toque",
+      "portátil",
+      "lê conteúdos",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 31,
+    "categoria": "Coisa",
+    "resposta": "CADEIRA",
+    "pistas": [
+      "É um objeto",
+      "serve para sentar",
+      "tem quatro pernas",
+      "fica na casa",
+      "apoia as costas",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 32,
+    "categoria": "Coisa",
+    "resposta": "MESA",
+    "pistas": [
+      "É um objeto",
+      "superfície plana",
+      "apoia objetos",
+      "tem pernas",
+      "fica na casa",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 33,
+    "categoria": "Coisa",
+    "resposta": "SOFÁ",
+    "pistas": [
+      "É um objeto",
+      "assento macio",
+      "fica na sala",
+      "acomoda pessoas",
+      "tem almofadas",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 34,
+    "categoria": "Coisa",
+    "resposta": "ALMOFADA",
+    "pistas": [
+      "É um objeto",
+      "macia",
+      "apoia o corpo",
+      "fica no sofá",
+      "tem tecido",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 35,
+    "categoria": "Coisa",
+    "resposta": "LUMINÁRIA",
+    "pistas": [
+      "É um objeto",
+      "ilumina",
+      "tem lâmpada",
+      "fica na mesa",
+      "usa energia",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 36,
+    "categoria": "Coisa",
+    "resposta": "CORTINA",
+    "pistas": [
+      "É um objeto",
+      "cobre janelas",
+      "feita de tecido",
+      "deixa passar luz",
+      "pode ser longa",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 37,
+    "categoria": "Coisa",
+    "resposta": "TAPETE",
+    "pistas": [
+      "É um objeto",
+      "fica no chão",
+      "decora",
+      "feito de tecido",
+      "pode ser grande",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 38,
+    "categoria": "Coisa",
+    "resposta": "ESPELHO",
+    "pistas": [
+      "É um objeto",
+      "mostra reflexo",
+      "feito de vidro",
+      "fica na parede",
+      "ajuda a se ver",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 39,
+    "categoria": "Coisa",
+    "resposta": "TRAVESSEIRO",
+    "pistas": [
+      "É um objeto",
+      "apoia a cabeça",
+      "macio",
+      "usado para dormir",
+      "tem tecido",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 40,
+    "categoria": "Coisa",
+    "resposta": "COBERTOR",
+    "pistas": [
+      "É um objeto",
+      "esquenta",
+      "feito de tecido",
+      "usado para dormir",
+      "macio",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 41,
+    "categoria": "Coisa",
+    "resposta": "ESCOVA",
+    "pistas": [
+      "É um objeto",
+      "tem cerdas",
+      "serve para pentear",
+      "usada no cabelo",
+      "tem cabo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 42,
+    "categoria": "Coisa",
+    "resposta": "PENTE",
+    "pistas": [
+      "É um objeto",
+      "arruma o cabelo",
+      "tem dentes",
+      "usado no cabelo",
+      "pequeno",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 43,
+    "categoria": "Coisa",
+    "resposta": "SABONETE",
+    "pistas": [
+      "É um objeto",
+      "limpa a pele",
+      "faz espuma",
+      "usado no banho",
+      "tem cheiro",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 44,
+    "categoria": "Coisa",
+    "resposta": "TOALHA",
+    "pistas": [
+      "É um objeto",
+      "seca o corpo",
+      "feita de tecido",
+      "usada após o banho",
+      "macia",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 45,
+    "categoria": "Coisa",
+    "resposta": "CREME DENTAL",
+    "pistas": [
+      "É um objeto",
+      "limpa dentes",
+      "tem sabor",
+      "usado na escovação",
+      "vem em tubo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 46,
+    "categoria": "Coisa",
+    "resposta": "SHAMPOO",
+    "pistas": [
+      "É um objeto",
+      "lava o cabelo",
+      "tem espuma",
+      "usado no banho",
+      "vem em frasco",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 47,
+    "categoria": "Coisa",
+    "resposta": "DESODORANTE",
+    "pistas": [
+      "É um objeto",
+      "reduz odor",
+      "usado no corpo",
+      "pode ser spray",
+      "tem cheiro",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 48,
+    "categoria": "Coisa",
+    "resposta": "LENÇO",
+    "pistas": [
+      "É um objeto",
+      "usado no nariz",
+      "feito de papel",
+      "descartável",
+      "pequeno",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 49,
+    "categoria": "Coisa",
+    "resposta": "CORTA-UNHAS",
+    "pistas": [
+      "É um objeto",
+      "corta unhas",
+      "tem lâmina",
+      "pequeno",
+      "feito de metal",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 50,
+    "categoria": "Coisa",
+    "resposta": "ESCOVA DE DENTES",
+    "pistas": [
+      "É um objeto",
+      "limpa dentes",
+      "tem cerdas",
+      "usada com pasta",
+      "tem cabo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 51,
+    "categoria": "Coisa",
+    "resposta": "BOLA",
+    "pistas": [
+      "É um objeto",
+      "redonda",
+      "usada em jogos",
+      "rola",
+      "pode ser esportiva",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 52,
+    "categoria": "Coisa",
+    "resposta": "RAQUETE",
+    "pistas": [
+      "É um objeto",
+      "rebate a bola",
+      "tem cabo",
+      "usada em esportes",
+      "tem rede",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 53,
+    "categoria": "Coisa",
+    "resposta": "CAPACETE",
+    "pistas": [
+      "É um objeto",
+      "protege a cabeça",
+      "tem fecho",
+      "usado em esportes",
+      "segurança",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 54,
+    "categoria": "Coisa",
+    "resposta": "JOELHEIRA",
+    "pistas": [
+      "É um objeto",
+      "protege o joelho",
+      "usada em esportes",
+      "tem elástico",
+      "amortece",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 55,
+    "categoria": "Coisa",
+    "resposta": "TÊNIS",
+    "pistas": [
+      "É um objeto",
+      "vai no pé",
+      "tem cadarço",
+      "serve para caminhar",
+      "protege",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 56,
+    "categoria": "Coisa",
+    "resposta": "BICICLETA",
+    "pistas": [
+      "É um objeto",
+      "tem duas rodas",
+      "usa pedal",
+      "serve para andar",
+      "tem guidão",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 57,
+    "categoria": "Coisa",
+    "resposta": "APITO",
+    "pistas": [
+      "É um objeto",
+      "dá sinal",
+      "faz som",
+      "usado em esportes",
+      "pequeno",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 58,
+    "categoria": "Coisa",
+    "resposta": "LUVA",
+    "pistas": [
+      "É um objeto",
+      "protege a mão",
+      "pode ser de couro",
+      "usada em esportes",
+      "tem cinco dedos",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 59,
+    "categoria": "Coisa",
+    "resposta": "REDE",
+    "pistas": [
+      "É um objeto",
+      "separa a quadra",
+      "usada em esportes",
+      "tem malha",
+      "fica esticada",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 60,
+    "categoria": "Coisa",
+    "resposta": "GARRAFA ESPORTIVA",
+    "pistas": [
+      "É um objeto",
+      "guarda água",
+      "tem tampa",
+      "usada em treinos",
+      "portátil",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 61,
+    "categoria": "Coisa",
+    "resposta": "MALA",
+    "pistas": [
+      "É um objeto",
+      "carrega roupas",
+      "tem alça",
+      "usada em viagens",
+      "pode ter rodinhas",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 62,
+    "categoria": "Coisa",
+    "resposta": "PASSAPORTE",
+    "pistas": [
+      "É um objeto",
+      "documento",
+      "usado em viagens",
+      "tem foto",
+      "serve para entrar em países",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 63,
+    "categoria": "Coisa",
+    "resposta": "BÚSSOLA",
+    "pistas": [
+      "É um objeto",
+      "mostra direção",
+      "tem agulha",
+      "ajuda na orientação",
+      "pequena",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 64,
+    "categoria": "Coisa",
+    "resposta": "MAPA",
+    "pistas": [
+      "É um objeto",
+      "mostra caminhos",
+      "tem lugares",
+      "serve para orientar",
+      "pode ser dobrado",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 65,
+    "categoria": "Coisa",
+    "resposta": "LANTERNA",
+    "pistas": [
+      "É um objeto",
+      "emite luz",
+      "usa pilhas",
+      "portátil",
+      "ajuda no escuro",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 66,
+    "categoria": "Coisa",
+    "resposta": "CANTIL",
+    "pistas": [
+      "É um objeto",
+      "guarda água",
+      "tem tampa",
+      "usado em trilhas",
+      "portátil",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 67,
+    "categoria": "Coisa",
+    "resposta": "CAPA DE CHUVA",
+    "pistas": [
+      "É um objeto",
+      "protege da chuva",
+      "vestível",
+      "leve",
+      "impermeável",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 68,
+    "categoria": "Coisa",
+    "resposta": "MOCHILA DE TRILHA",
+    "pistas": [
+      "É um objeto",
+      "suporta peso",
+      "tem cintas",
+      "usada em trilhas",
+      "maior",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 69,
+    "categoria": "Coisa",
+    "resposta": "BARRACA",
+    "pistas": [
+      "É um objeto",
+      "serve para dormir",
+      "montada no chão",
+      "usada em camping",
+      "tem estacas",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 70,
+    "categoria": "Coisa",
+    "resposta": "SACO DE DORMIR",
+    "pistas": [
+      "É um objeto",
+      "esquenta na noite",
+      "usado em camping",
+      "enrolável",
+      "feito de tecido",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 71,
+    "categoria": "Coisa",
+    "resposta": "VIOLÃO",
+    "pistas": [
+      "É um objeto",
+      "tem cordas",
+      "faz som",
+      "usado na música",
+      "forma de oito",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 72,
+    "categoria": "Coisa",
+    "resposta": "FLAUTA",
+    "pistas": [
+      "É um objeto",
+      "assoprada",
+      "faz som",
+      "tem furos",
+      "instrumento musical",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 73,
+    "categoria": "Coisa",
+    "resposta": "TAMBOR",
+    "pistas": [
+      "É um objeto",
+      "percussão",
+      "faz batidas",
+      "tem pele",
+      "instrumento musical",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 74,
+    "categoria": "Coisa",
+    "resposta": "TECLADO MUSICAL",
+    "pistas": [
+      "É um objeto",
+      "toca notas",
+      "tem teclas",
+      "instrumento musical",
+      "usa energia",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 75,
+    "categoria": "Coisa",
+    "resposta": "MICROFONE",
+    "pistas": [
+      "É um objeto",
+      "amplifica voz",
+      "usado em shows",
+      "capta som",
+      "tem cabo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 76,
+    "categoria": "Coisa",
+    "resposta": "CAIXA DE SOM",
+    "pistas": [
+      "É um objeto",
+      "reproduz áudio",
+      "tem volume",
+      "usa energia",
+      "tem alto-falante",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 77,
+    "categoria": "Coisa",
+    "resposta": "FONE DE OUVIDO",
+    "pistas": [
+      "É um objeto",
+      "escuta som",
+      "vai na orelha",
+      "pode ser com fio",
+      "isolamento",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 78,
+    "categoria": "Coisa",
+    "resposta": "ESTANTE DE PARTITURA",
+    "pistas": [
+      "É um objeto",
+      "apoia partituras",
+      "usada por músicos",
+      "tem altura",
+      "ajusta inclinação",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 79,
+    "categoria": "Coisa",
+    "resposta": "METRÔNOMO",
+    "pistas": [
+      "É um objeto",
+      "marca o tempo",
+      "usado em música",
+      "faz tic-tac",
+      "ajuda no ritmo",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 80,
+    "categoria": "Coisa",
+    "resposta": "TRIÂNGULO",
+    "pistas": [
+      "É um objeto",
+      "som metálico",
+      "percussão",
+      "tem baqueta",
+      "instrumento musical",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 81,
+    "categoria": "Coisa",
+    "resposta": "GRAMPEADOR",
+    "pistas": [
+      "É um objeto",
+      "grampeia folhas",
+      "usado no escritório",
+      "tem mola",
+      "metal",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 82,
+    "categoria": "Coisa",
+    "resposta": "CLIPS",
+    "pistas": [
+      "É um objeto",
+      "prende papéis",
+      "pequeno",
+      "feito de metal",
+      "usado no escritório",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 83,
+    "categoria": "Coisa",
+    "resposta": "CARIMBO",
+    "pistas": [
+      "É um objeto",
+      "marca documentos",
+      "tem tinta",
+      "usado no escritório",
+      "tem base",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 84,
+    "categoria": "Coisa",
+    "resposta": "PASTA",
+    "pistas": [
+      "É um objeto",
+      "guarda documentos",
+      "organiza folhas",
+      "usada no escritório",
+      "tem abas",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 85,
+    "categoria": "Coisa",
+    "resposta": "AGENDA",
+    "pistas": [
+      "É um objeto",
+      "organiza horários",
+      "tem datas",
+      "usada no dia a dia",
+      "anota compromissos",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 86,
+    "categoria": "Coisa",
+    "resposta": "POST-IT",
+    "pistas": [
+      "É um objeto",
+      "lembretes",
+      "papel adesivo",
+      "pequeno",
+      "colorido",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 87,
+    "categoria": "Coisa",
+    "resposta": "CALCULADORA",
+    "pistas": [
+      "É um objeto",
+      "faz contas",
+      "tem teclas",
+      "usa bateria",
+      "mostra resultados",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 88,
+    "categoria": "Coisa",
+    "resposta": "CANETA MARCADORA",
+    "pistas": [
+      "É um objeto",
+      "marca textos",
+      "tem tinta forte",
+      "usada para destacar",
+      "ponta grossa",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 89,
+    "categoria": "Coisa",
+    "resposta": "QUADRO BRANCO",
+    "pistas": [
+      "É um objeto",
+      "anota",
+      "usa marcador",
+      "fica na parede",
+      "apaga com apagador",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 90,
+    "categoria": "Coisa",
+    "resposta": "TESOURA",
+    "pistas": [
+      "É um objeto",
+      "corta",
+      "tem lâminas",
+      "tem duas alças",
+      "usada no escritório",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 91,
+    "categoria": "Coisa",
+    "resposta": "CADERNETA",
+    "pistas": [
+      "É um objeto",
+      "anota ideias",
+      "tem páginas",
+      "é pequena",
+      "cabe no bolso",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 92,
+    "categoria": "Coisa",
+    "resposta": "PORTA-LÁPIS",
+    "pistas": [
+      "É um objeto",
+      "guarda lápis",
+      "fica na mesa",
+      "organiza materiais",
+      "é rígido",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 93,
+    "categoria": "Coisa",
+    "resposta": "FITA ADESIVA",
+    "pistas": [
+      "É um objeto",
+      "cola papéis",
+      "tem rolo",
+      "é transparente",
+      "usada no escritório",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 94,
+    "categoria": "Coisa",
+    "resposta": "LIXEIRA",
+    "pistas": [
+      "É um objeto",
+      "descarta resíduos",
+      "fica no chão",
+      "tem tampa",
+      "é usada em casa",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 95,
+    "categoria": "Coisa",
+    "resposta": "APAGADOR",
+    "pistas": [
+      "É um objeto",
+      "apaga quadro",
+      "tem feltro",
+      "usado em escolas",
+      "segura com a mão",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 96,
+    "categoria": "Coisa",
+    "resposta": "BORRIFADOR",
+    "pistas": [
+      "É um objeto",
+      "espirra líquido",
+      "tem gatilho",
+      "usado para limpar",
+      "tem frasco",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 97,
+    "categoria": "Coisa",
+    "resposta": "TERMÔMETRO",
+    "pistas": [
+      "É um objeto",
+      "mede temperatura",
+      "tem escala",
+      "usado em saúde",
+      "é pequeno",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 98,
+    "categoria": "Coisa",
+    "resposta": "GUARDA-CHUVA",
+    "pistas": [
+      "É um objeto",
+      "protege da chuva",
+      "abre e fecha",
+      "tem cabo",
+      "é portátil",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 99,
+    "categoria": "Coisa",
+    "resposta": "CHAVE",
+    "pistas": [
+      "É um objeto",
+      "abre portas",
+      "feita de metal",
+      "pequena",
+      "fica no chaveiro",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  },
+  {
+    "id": 100,
+    "categoria": "Coisa",
+    "resposta": "CHAVEIRO",
+    "pistas": [
+      "É um objeto",
+      "guarda chaves",
+      "pode ter argola",
+      "é pequeno",
+      "fica no bolso",
+      "Tem uso no dia a dia",
+      "É fácil de reconhecer",
+      "É vendido em lojas",
+      "Pode ser transportado"
+    ]
+  }
+]

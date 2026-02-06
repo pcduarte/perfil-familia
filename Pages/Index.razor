@@ -1,0 +1,645 @@
+@page "/"
+@using PerfilFamilia.Models
+@using PerfilFamilia.Services
+@using System.Globalization
+@using System.Text
+@inject CartasService CartasService
+@inject IJSRuntime JS
+
+@if (FaseAtual == FaseDoJogo.Intro)
+{
+    <section class="intro">
+        <div class="intro-card">
+            <div class="intro-badge">Perfil Família</div>
+            <h1>O jogo das pistas</h1>
+            <p class="lead">
+                Descubra o perfil misterioso com pistas progressivas. Cada acerto vale 1 ponto
+                e a vez passa para o próximo jogador.
+            </p>
+            <div class="intro-steps">
+                <div class="intro-step">
+                    <strong>1.</strong> Adicione 2 ou mais jogadores.
+                </div>
+                <div class="intro-step">
+                    <strong>2.</strong> Escolha as categorias das cartas.
+                </div>
+                <div class="intro-step">
+                    <strong>3.</strong> Revele pistas e responda.
+                </div>
+            </div>
+            <div class="panel-actions">
+                <button class="btn primary" @onclick="IrParaPreparacao">Preparar partida</button>
+            </div>
+        </div>
+    </section>
+}
+else if (FaseAtual == FaseDoJogo.Preparacao)
+{
+    <section class="panel">
+        <div class="panel-header">
+            <h2>Configurar partida</h2>
+            <p>Crie sua mesa e escolha as categorias do baralho.</p>
+        </div>
+
+        <div class="grid">
+            <div class="stack">
+                <h3>Jogadores</h3>
+                <div class="inline-form">
+                    <input class="input" @bind="NovoJogador" placeholder="Nome do jogador" />
+                    <button class="btn primary" @onclick="AdicionarJogador">Adicionar</button>
+                </div>
+
+                @if (Jogadores.Count == 0)
+                {
+                    <p class="muted">Adicione pelo menos 2 jogadores para iniciar.</p>
+                }
+                else
+                {
+                    <div class="chips">
+                        @foreach (var jogador in Jogadores)
+                        {
+                            <div class="chip removable">
+                                <span>@jogador.Nome</span>
+                                <button class="icon-button" @onclick="() => RemoverJogador(jogador)" aria-label="Remover jogador">
+                                    x
+                                </button>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="stack">
+                <h3>Categorias</h3>
+                <div class="category-grid">
+                    @foreach (var categoria in Categorias)
+                    {
+                        var selecionado = CategoriaSelecionada[categoria.Chave];
+                        <label class="category-card">
+                            <input type="checkbox" checked="@selecionado" @onchange="(e) => AlternarCategoria(categoria.Chave, e)" />
+                            <div>
+                                <span class="category-icon">@GetCategoriaBadge(categoria.Chave)</span>
+                                <strong>@categoria.Titulo</strong>
+                            </div>
+                        </label>
+                    }
+                </div>
+                <p class="muted">Selecione pelo menos uma categoria.</p>
+            </div>
+        </div>
+
+        @if (!string.IsNullOrWhiteSpace(Erro))
+        {
+            <div class="alert">@Erro</div>
+        }
+
+        <div class="panel-actions">
+            <button class="btn primary" @onclick="IniciarJogo" disabled="@(Jogadores.Count < 2 || EstaCarregando)">
+                @(EstaCarregando ? "Carregando..." : "Iniciar partida")
+            </button>
+        </div>
+    </section>
+}
+else if (FaseAtual == FaseDoJogo.EmJogo)
+{
+    <section class="panel">
+        <div class="panel-header">
+            <div>
+                <h2>Vez de @Jogadores[JogadorAtual].Nome</h2>
+                <p>Baralho restante: @Baralho.Count carta(s)</p>
+            </div>
+            <div class="score-pill">Pista @PistasReveladas de @TotalPistas</div>
+        </div>
+
+        @if (CartaAtual != null)
+        {
+            <div class="turn-area">
+                <div class="perfil-card @GetCategoriaClass(CartaAtual.Categoria)">
+                    <div class="perfil-card-header">
+                        <span class="perfil-card-category">@CartaAtual.Categoria</span>
+                        <span class="perfil-card-count">Pista @PistasReveladas de @TotalPistas</span>
+                    </div>
+                    <div class="perfil-card-title">Quem sou eu?</div>
+                    <ol class="perfil-card-list">
+                        @for (var i = 0; i < PistasReveladas; i++)
+                        {
+                            <li>@CartaAtual.Pistas[i]</li>
+                        }
+                    </ol>
+                </div>
+
+                <div class="answer-card">
+                    <h3>Seu palpite</h3>
+                    <input class="input" @bind="Palpite" placeholder="Digite seu palpite" />
+                    <div class="button-row">
+                        <button class="btn" @onclick="RevelarPista" disabled="@(!PodeRevelarPista || PistaReveladaNesteTurno)">Revelar pista</button>
+                        <button class="btn primary" @onclick="ConfirmarPalpite">Responder</button>
+                        <button class="btn ghost" @onclick="PassarVez">Passar</button>
+                    </div>
+
+                    <div class="button-row">
+                        <button class="btn ghost" @onclick="MostrarResposta" disabled="@MostrarRespostaNaTela">Mostrar resposta</button>
+                        <button class="btn" @onclick="ProximaCarta" disabled="@(!MostrarRespostaNaTela)">Proxima carta</button>
+                    </div>
+                </div>
+            </div>
+
+            @if (MostrarRespostaNaTela)
+            {
+                <div class="answer-reveal">
+                    <span>Resposta:</span>
+                    <strong>@CartaAtual.Resposta</strong>
+                </div>
+            }
+        }
+    </section>
+
+    @if (MostrarOverlayTurno)
+    {
+        <div class="turn-overlay" @onclick="FecharOverlayTurno">
+            <div class="turn-overlay-card" @onclick:stopPropagation="true">
+                <p class="eyebrow">Troca de turno</p>
+                <h2>Agora e a vez de</h2>
+                <div class="turn-name">@Jogadores[JogadorAtual].Nome</div>
+                <button class="btn primary" @onclick="FecharOverlayTurno">Pronto</button>
+            </div>
+        </div>
+    }
+
+    @if (MostrarOverlayMensagem)
+    {
+        <div class="turn-overlay" @onclick="FecharOverlayMensagem">
+            <div class="turn-overlay-card message-card" @onclick:stopPropagation="true">
+                <p class="eyebrow">Resultado do turno</p>
+                <h2>@MensagemOverlay</h2>
+                <button class="btn primary" @onclick="FecharOverlayMensagem">Continuar</button>
+            </div>
+        </div>
+    }
+
+    <section class="panel">
+        <div class="panel-header">
+            <h2>Pontuacao</h2>
+        </div>
+        <div class="scoreboard">
+            @for (var i = 0; i < Jogadores.Count; i++)
+            {
+                var jogador = Jogadores[i];
+                <div class="score-item @(i == JogadorAtual ? "active" : string.Empty)">
+                    <span>@jogador.Nome</span>
+                    <strong>@jogador.Pontos</strong>
+                </div>
+            }
+        </div>
+
+        <div class="panel-actions">
+            <button class="btn ghost" @onclick="EncerrarPartida">Encerrar partida</button>
+        </div>
+    </section>
+}
+else
+{
+    <section class="panel">
+        <div class="panel-header">
+            <h2>Fim de partida</h2>
+            <p>Confira o ranking final e jogue novamente.</p>
+        </div>
+
+        <div class="scoreboard">
+            @foreach (var jogador in Jogadores.OrderByDescending(j => j.Pontos))
+            {
+                <div class="score-item">
+                    <span>@jogador.Nome</span>
+                    <strong>@jogador.Pontos</strong>
+                </div>
+            }
+        </div>
+
+        <div class="panel-actions">
+            <button class="btn primary" @onclick="ReiniciarPartida">Jogar novamente</button>
+            <button class="btn" @onclick="VoltarPreparacaoMantendoJogadores">Alterar categorias</button>
+            <button class="btn ghost" @onclick="VoltarAoLobby">Alterar jogadores</button>
+        </div>
+    </section>
+}
+
+@code {
+    enum FaseDoJogo
+    {
+        Intro,
+        Preparacao,
+        EmJogo,
+        Finalizado
+    }
+
+    sealed record CategoriaInfo(string Chave, string Titulo, string Descricao);
+
+    readonly List<CategoriaInfo> Categorias = new()
+    {
+        new CategoriaInfo("pessoas", "Pessoa ou Personagem", "Profissoes e personagens."),
+        new CategoriaInfo("lugares", "Lugar", "Cidades e paisagens."),
+        new CategoriaInfo("animais", "Animal", "Animais do dia a dia."),
+        new CategoriaInfo("coisas", "Coisa", "Objetos comuns."),
+    };
+
+    readonly Dictionary<string, bool> CategoriaSelecionada = new()
+    {
+        ["pessoas"] = true,
+        ["lugares"] = true,
+        ["animais"] = true,
+        ["coisas"] = true,
+    };
+
+    readonly List<Jogador> Jogadores = new();
+
+    FaseDoJogo FaseAtual = FaseDoJogo.Intro;
+    string NovoJogador = string.Empty;
+    string Erro = string.Empty;
+    bool EstaCarregando;
+
+    List<Carta> Baralho = new();
+    Carta? CartaAtual;
+    int JogadorAtual;
+    int PistasReveladas = 1;
+    string Palpite = string.Empty;
+    string Mensagem = string.Empty;
+    bool MostrarRespostaNaTela;
+    bool MostrarOverlayTurno;
+    bool MostrarOverlayMensagem;
+    string MensagemOverlay = string.Empty;
+    bool AvancarAposMensagem;
+    bool CarregarNovaCartaAposMensagem;
+    bool PistaReveladaNesteTurno;
+
+    int TotalPistas => CartaAtual?.Pistas.Count ?? 0;
+    bool PodeRevelarPista => CartaAtual != null && PistasReveladas < CartaAtual.Pistas.Count;
+
+    void AdicionarJogador()
+    {
+        Erro = string.Empty;
+        if (string.IsNullOrWhiteSpace(NovoJogador))
+        {
+            Erro = "Digite um nome valido.";
+            return;
+        }
+
+        Jogadores.Add(new Jogador { Nome = NovoJogador.Trim() });
+        NovoJogador = string.Empty;
+    }
+
+    void RemoverJogador(Jogador jogador)
+    {
+        Jogadores.Remove(jogador);
+    }
+
+    void AlternarCategoria(string chave, ChangeEventArgs e)
+    {
+        if (CategoriaSelecionada.ContainsKey(chave))
+        {
+            CategoriaSelecionada[chave] = e.Value is bool valor && valor;
+        }
+    }
+
+    void IrParaPreparacao()
+    {
+        FaseAtual = FaseDoJogo.Preparacao;
+    }
+
+    async Task IniciarJogo()
+    {
+        Erro = string.Empty;
+        Mensagem = string.Empty;
+
+        if (Jogadores.Count < 2)
+        {
+            Erro = "Adicione pelo menos 2 jogadores.";
+            return;
+        }
+
+        var categoriasAtivas = CategoriaSelecionada.Where(c => c.Value).Select(c => c.Key).ToList();
+        if (categoriasAtivas.Count == 0)
+        {
+            Erro = "Selecione ao menos uma categoria.";
+            return;
+        }
+
+        EstaCarregando = true;
+        var cartas = new List<Carta>();
+        foreach (var categoria in categoriasAtivas)
+        {
+            var carregadas = await CartasService.CarregarCategoriaAsync(categoria);
+            cartas.AddRange(carregadas);
+        }
+        EstaCarregando = false;
+
+        if (cartas.Count == 0)
+        {
+            Erro = "Nenhuma carta encontrada. Verifique os arquivos de dados.";
+            return;
+        }
+
+        Baralho = cartas.OrderBy(_ => Random.Shared.Next()).ToList();
+        JogadorAtual = 0;
+        foreach (var jogador in Jogadores)
+        {
+            jogador.Pontos = 0;
+        }
+
+        FaseAtual = FaseDoJogo.EmJogo;
+        CarregarNovaCarta();
+        await MostrarOverlayAsync();
+    }
+
+    void CarregarNovaCarta()
+    {
+        Mensagem = string.Empty;
+        Palpite = string.Empty;
+        MostrarRespostaNaTela = false;
+
+        if (Baralho.Count == 0)
+        {
+            FaseAtual = FaseDoJogo.Finalizado;
+            CartaAtual = null;
+            return;
+        }
+
+        CartaAtual = Baralho[0];
+        Baralho.RemoveAt(0);
+        PistasReveladas = Math.Min(1, CartaAtual.Pistas.Count);
+        PistaReveladaNesteTurno = false;
+    }
+
+    void RevelarPista()
+    {
+        if (CartaAtual == null)
+        {
+            return;
+        }
+
+        if (!PistaReveladaNesteTurno && PodeRevelarPista)
+        {
+            PistasReveladas++;
+            PistaReveladaNesteTurno = true;
+            Mensagem = string.Empty;
+        }
+        else
+        {
+            Mensagem = PistaReveladaNesteTurno
+                ? "Apenas uma pista por turno."
+                : "Sem mais pistas para revelar.";
+        }
+    }
+
+    void ConfirmarPalpite()
+    {
+        if (CartaAtual == null)
+        {
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(Palpite))
+        {
+            Mensagem = "Digite um palpite antes de responder.";
+            return;
+        }
+
+        if (RespostaConfere(Palpite, CartaAtual.Resposta))
+        {
+            const int pontos = 1;
+            Jogadores[JogadorAtual].Pontos += pontos;
+            Mensagem = "Acertou! +1 ponto.";
+            MostrarMensagemEAvancar(Mensagem, carregarNovaCarta: true);
+        }
+        else
+        {
+            Mensagem = "Não foi dessa vez. Próximo jogador!";
+            MostrarMensagemEAvancar(Mensagem, carregarNovaCarta: false);
+        }
+
+        Palpite = string.Empty;
+    }
+
+    void PassarVez()
+    {
+        Mensagem = "Vez passada.";
+        Palpite = string.Empty;
+        MostrarMensagemEAvancar(Mensagem, carregarNovaCarta: false);
+    }
+
+    void MostrarResposta()
+    {
+        if (CartaAtual == null)
+        {
+            return;
+        }
+
+        MostrarRespostaNaTela = true;
+        Mensagem = "Resposta revelada. Não vale pontos.";
+    }
+
+    void ProximaCarta()
+    {
+        if (!MostrarRespostaNaTela)
+        {
+            return;
+        }
+
+        MostrarMensagemEAvancar("Proxima carta!", carregarNovaCarta: true);
+    }
+
+    void AvancarJogador(bool mostrarOverlay)
+    {
+        if (Jogadores.Count == 0)
+        {
+            return;
+        }
+
+        JogadorAtual = (JogadorAtual + 1) % Jogadores.Count;
+        PistaReveladaNesteTurno = false;
+        if (mostrarOverlay)
+        {
+            _ = MostrarOverlayAsync();
+        }
+    }
+
+    void FecharOverlayTurno()
+    {
+        MostrarOverlayTurno = false;
+    }
+
+    void FecharOverlayMensagem()
+    {
+        MostrarOverlayMensagem = false;
+        if (AvancarAposMensagem)
+        {
+            AvancarJogador(mostrarOverlay: true);
+            if (CarregarNovaCartaAposMensagem)
+            {
+                CarregarNovaCarta();
+            }
+        }
+    }
+
+    void MostrarMensagemEAvancar(string mensagem, bool carregarNovaCarta)
+    {
+        MensagemOverlay = mensagem;
+        MostrarOverlayMensagem = true;
+        AvancarAposMensagem = true;
+        CarregarNovaCartaAposMensagem = carregarNovaCarta;
+    }
+
+    static bool RespostaConfere(string palpite, string resposta)
+    {
+        var palpiteNormalizado = NormalizarResposta(palpite);
+        var respostaNormalizada = NormalizarResposta(resposta);
+
+        if (string.IsNullOrEmpty(palpiteNormalizado) || string.IsNullOrEmpty(respostaNormalizada))
+        {
+            return false;
+        }
+
+        if (palpiteNormalizado == respostaNormalizada)
+        {
+            return true;
+        }
+
+        var palpiteTokens = Tokenizar(palpiteNormalizado);
+        var respostaTokens = Tokenizar(respostaNormalizada);
+
+        if (palpiteTokens.Count == 0 || respostaTokens.Count == 0)
+        {
+            return false;
+        }
+
+        if (palpiteTokens.IsSubsetOf(respostaTokens) || respostaTokens.IsSubsetOf(palpiteTokens))
+        {
+            return true;
+        }
+
+        if (palpiteNormalizado.Length >= 4 && respostaNormalizada.Contains(palpiteNormalizado, StringComparison.Ordinal))
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    static HashSet<string> Tokenizar(string texto)
+    {
+        var stopwords = new HashSet<string> { "DE", "DA", "DO", "DAS", "DOS", "E", "A", "O", "AS", "OS", "UM", "UMA", "UNS", "UMAS", "NA", "NO", "NAS", "NOS" };
+        var tokens = texto.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        var set = new HashSet<string>();
+
+        foreach (var token in tokens)
+        {
+            if (!stopwords.Contains(token))
+            {
+                set.Add(token);
+            }
+        }
+
+        return set;
+    }
+
+    static string NormalizarResposta(string texto)
+    {
+        if (string.IsNullOrWhiteSpace(texto))
+        {
+            return string.Empty;
+        }
+
+        var normalized = texto.Trim().ToUpperInvariant().Normalize(NormalizationForm.FormD);
+        var sb = new StringBuilder(normalized.Length);
+        var lastWasSpace = false;
+
+        foreach (var ch in normalized)
+        {
+            var category = CharUnicodeInfo.GetUnicodeCategory(ch);
+            if (category == UnicodeCategory.NonSpacingMark)
+            {
+                continue;
+            }
+
+            if (char.IsLetterOrDigit(ch))
+            {
+                sb.Append(ch);
+                lastWasSpace = false;
+            }
+            else if (char.IsWhiteSpace(ch))
+            {
+                if (!lastWasSpace)
+                {
+                    sb.Append(' ');
+                    lastWasSpace = true;
+                }
+            }
+        }
+
+        return sb.ToString().Trim();
+    }
+
+    async Task MostrarOverlayAsync()
+    {
+        MostrarOverlayTurno = true;
+        await JS.InvokeVoidAsync("perfil.playTurnSignal");
+    }
+
+    void EncerrarPartida()
+    {
+        FaseAtual = FaseDoJogo.Finalizado;
+    }
+
+    void ReiniciarPartida()
+    {
+        foreach (var jogador in Jogadores)
+        {
+            jogador.Pontos = 0;
+        }
+
+        Baralho.Clear();
+        CartaAtual = null;
+        FaseAtual = FaseDoJogo.Preparacao;
+    }
+
+    void VoltarPreparacaoMantendoJogadores()
+    {
+        foreach (var jogador in Jogadores)
+        {
+            jogador.Pontos = 0;
+        }
+
+        Baralho.Clear();
+        CartaAtual = null;
+        FaseAtual = FaseDoJogo.Preparacao;
+    }
+
+    void VoltarAoLobby()
+    {
+        Jogadores.Clear();
+        ReiniciarPartida();
+    }
+
+    static string GetCategoriaClass(string categoria)
+    {
+        return categoria switch
+        {
+            "Pessoa" => "card-pessoa",
+            "Lugar" => "card-lugar",
+            "Animal" => "card-animal",
+            "Coisa" => "card-coisa",
+            _ => "card-padrao"
+        };
+    }
+
+    static string GetCategoriaBadge(string chave)
+    {
+        return chave switch
+        {
+            "pessoas" => "P",
+            "lugares" => "L",
+            "animais" => "A",
+            "coisas" => "C",
+            _ => "?"
+        };
+    }
+}

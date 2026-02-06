@@ -1,0 +1,9 @@
+.app-shell[b-ee0gxcs4b2] {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-main[b-ee0gxcs4b2] {
+    flex: 1;
+}

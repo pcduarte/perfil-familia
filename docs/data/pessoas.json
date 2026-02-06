@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "categoria": "Pessoa",
+    "resposta": "MÉDICO",
+    "pistas": [
+      "É uma pessoa",
+      "cuida da saúde",
+      "atua em hospitais ou clínicas",
+      "usa estetoscópio",
+      "lida com diagnósticos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 2,
+    "categoria": "Pessoa",
+    "resposta": "ENFERMEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "cuida de pacientes",
+      "trabalha em equipe",
+      "usa luvas e materiais",
+      "acompanha tratamentos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 3,
+    "categoria": "Pessoa",
+    "resposta": "DENTISTA",
+    "pistas": [
+      "É uma pessoa",
+      "cuida dos dentes",
+      "usa cadeira odontológica",
+      "faz restaurações",
+      "usa instrumentos pequenos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 4,
+    "categoria": "Pessoa",
+    "resposta": "VETERINÁRIO",
+    "pistas": [
+      "É uma pessoa",
+      "cuida de animais",
+      "atende em clínicas",
+      "faz vacinação",
+      "lida com diferentes espécies",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 5,
+    "categoria": "Pessoa",
+    "resposta": "FARMACÊUTICO",
+    "pistas": [
+      "É uma pessoa",
+      "atua com medicamentos",
+      "trabalha em farmácia",
+      "orienta doses",
+      "controla receitas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 6,
+    "categoria": "Pessoa",
+    "resposta": "NUTRICIONISTA",
+    "pistas": [
+      "É uma pessoa",
+      "monta dietas",
+      "fala sobre alimentação",
+      "trabalha com saúde",
+      "orienta hábitos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 7,
+    "categoria": "Pessoa",
+    "resposta": "FISIOTERAPEUTA",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha reabilitação",
+      "usa exercícios físicos",
+      "atua com movimentos",
+      "ajuda na recuperação",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 8,
+    "categoria": "Pessoa",
+    "resposta": "PSICÓLOGO",
+    "pistas": [
+      "É uma pessoa",
+      "ouve pessoas",
+      "trabalha com emoções",
+      "faz terapias",
+      "ajuda no bem-estar",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 9,
+    "categoria": "Pessoa",
+    "resposta": "PARAMÉDICO",
+    "pistas": [
+      "É uma pessoa",
+      "atua em resgates",
+      "usa ambulância",
+      "presta primeiros socorros",
+      "age em emergências",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 10,
+    "categoria": "Pessoa",
+    "resposta": "TERAPEUTA OCUPACIONAL",
+    "pistas": [
+      "É uma pessoa",
+      "ajuda em autonomia",
+      "trabalha habilidades",
+      "atua em reabilitação",
+      "faz atividades práticas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 11,
+    "categoria": "Pessoa",
+    "resposta": "PROFESSOR DE MATEMÁTICA",
+    "pistas": [
+      "É uma pessoa",
+      "ensina números",
+      "usa quadro",
+      "trabalha em sala de aula",
+      "explica cálculos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 12,
+    "categoria": "Pessoa",
+    "resposta": "PROFESSOR DE CIÊNCIAS",
+    "pistas": [
+      "É uma pessoa",
+      "fala de experimentos",
+      "trabalha com laboratório",
+      "ensina natureza",
+      "usa exemplos práticos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 13,
+    "categoria": "Pessoa",
+    "resposta": "PROFESSOR DE HISTÓRIA",
+    "pistas": [
+      "É uma pessoa",
+      "fala do passado",
+      "trabalha com datas",
+      "usa livros",
+      "explica acontecimentos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 14,
+    "categoria": "Pessoa",
+    "resposta": "PROFESSOR DE GEOGRAFIA",
+    "pistas": [
+      "É uma pessoa",
+      "fala de mapas",
+      "explica territórios",
+      "usa atlas",
+      "trabalha com clima",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 15,
+    "categoria": "Pessoa",
+    "resposta": "PROFESSOR DE ARTES",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha criatividade",
+      "usa tintas",
+      "explora cores",
+      "fala de desenhos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 16,
+    "categoria": "Pessoa",
+    "resposta": "PROFESSOR DE EDUCAÇÃO FÍSICA",
+    "pistas": [
+      "É uma pessoa",
+      "coordena exercícios",
+      "usa quadra",
+      "ensina esportes",
+      "trabalha com alongamento",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 17,
+    "categoria": "Pessoa",
+    "resposta": "BIBLIOTECÁRIO",
+    "pistas": [
+      "É uma pessoa",
+      "organiza livros",
+      "trabalha em biblioteca",
+      "cuida de empréstimos",
+      "lida com catalogação",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 18,
+    "categoria": "Pessoa",
+    "resposta": "COORDENADOR PEDAGÓGICO",
+    "pistas": [
+      "É uma pessoa",
+      "acompanha professores",
+      "planeja aulas",
+      "atua na escola",
+      "organiza projetos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 19,
+    "categoria": "Pessoa",
+    "resposta": "INSTRUTOR DE IDIOMAS",
+    "pistas": [
+      "É uma pessoa",
+      "ensina outra língua",
+      "treina conversação",
+      "corrige pronúncia",
+      "usa materiais didáticos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 20,
+    "categoria": "Pessoa",
+    "resposta": "TUTOR",
+    "pistas": [
+      "É uma pessoa",
+      "orienta estudantes",
+      "tira dúvidas",
+      "acompanha estudos",
+      "organiza tarefas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 21,
+    "categoria": "Pessoa",
+    "resposta": "BOMBEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "combate incêndios",
+      "usa equipamentos de segurança",
+      "atua em resgates",
+      "trabalha com água",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 22,
+    "categoria": "Pessoa",
+    "resposta": "POLICIAL",
+    "pistas": [
+      "É uma pessoa",
+      "garante segurança",
+      "patrulha áreas",
+      "atua em ocorrências",
+      "usa uniforme",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 23,
+    "categoria": "Pessoa",
+    "resposta": "GUARDA MUNICIPAL",
+    "pistas": [
+      "É uma pessoa",
+      "protege locais públicos",
+      "atua nas ruas",
+      "faz rondas",
+      "orienta cidadãos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 24,
+    "categoria": "Pessoa",
+    "resposta": "SALVA-VIDAS",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha em praias",
+      "vigia banhistas",
+      "faz resgates",
+      "usa boia",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 25,
+    "categoria": "Pessoa",
+    "resposta": "AGENTE DE TRÂNSITO",
+    "pistas": [
+      "É uma pessoa",
+      "organiza o trânsito",
+      "atua em vias",
+      "sinaliza ruas",
+      "aplica regras",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 26,
+    "categoria": "Pessoa",
+    "resposta": "VIGIA",
+    "pistas": [
+      "É uma pessoa",
+      "faz segurança",
+      "trabalha em turnos",
+      "observa entradas",
+      "evita invasões",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 27,
+    "categoria": "Pessoa",
+    "resposta": "DELEGADO",
+    "pistas": [
+      "É uma pessoa",
+      "investiga crimes",
+      "coordena equipes",
+      "trabalha em delegacia",
+      "toma depoimentos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 28,
+    "categoria": "Pessoa",
+    "resposta": "PERITO",
+    "pistas": [
+      "É uma pessoa",
+      "analisa evidências",
+      "atua em investigações",
+      "usa técnicas científicas",
+      "trabalha com laudos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 29,
+    "categoria": "Pessoa",
+    "resposta": "CANTOR",
+    "pistas": [
+      "É uma pessoa",
+      "usa a voz",
+      "atua em shows",
+      "ensina música",
+      "faz apresentações",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 30,
+    "categoria": "Pessoa",
+    "resposta": "MÚSICO",
+    "pistas": [
+      "É uma pessoa",
+      "toca instrumentos",
+      "estuda ritmos",
+      "faz ensaios",
+      "atua em bandas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 31,
+    "categoria": "Pessoa",
+    "resposta": "ATOR",
+    "pistas": [
+      "É uma pessoa",
+      "atua em palco",
+      "interpreta personagens",
+      "decora falas",
+      "usa figurino",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 32,
+    "categoria": "Pessoa",
+    "resposta": "ATRIZ",
+    "pistas": [
+      "É uma pessoa",
+      "atua em teatro",
+      "interpreta papéis",
+      "usa figurino",
+      "trabalha com emoções",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 33,
+    "categoria": "Pessoa",
+    "resposta": "DANÇARINO",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha com movimentos",
+      "faz coreografias",
+      "treina passos",
+      "atua em palco",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 34,
+    "categoria": "Pessoa",
+    "resposta": "PINTOR",
+    "pistas": [
+      "É uma pessoa",
+      "usa tintas",
+      "cria quadros",
+      "trabalha com cores",
+      "usa pincéis",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 35,
+    "categoria": "Pessoa",
+    "resposta": "ESCULTOR",
+    "pistas": [
+      "É uma pessoa",
+      "modela formas",
+      "usa ferramentas",
+      "trabalha com pedra ou argila",
+      "cria esculturas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 36,
+    "categoria": "Pessoa",
+    "resposta": "FOTÓGRAFO",
+    "pistas": [
+      "É uma pessoa",
+      "usa câmera",
+      "faz ensaios",
+      "capta imagens",
+      "trabalha com luz",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 37,
+    "categoria": "Pessoa",
+    "resposta": "CINEASTA",
+    "pistas": [
+      "É uma pessoa",
+      "faz filmes",
+      "trabalha com roteiro",
+      "dirige cenas",
+      "usa câmeras",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 38,
+    "categoria": "Pessoa",
+    "resposta": "ILUSTRADOR",
+    "pistas": [
+      "É uma pessoa",
+      "cria desenhos",
+      "faz ilustrações",
+      "trabalha com traços",
+      "usa softwares ou papel",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 39,
+    "categoria": "Pessoa",
+    "resposta": "CIENTISTA",
+    "pistas": [
+      "É uma pessoa",
+      "faz pesquisas",
+      "trabalha com hipóteses",
+      "usa laboratório",
+      "analisa dados",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 40,
+    "categoria": "Pessoa",
+    "resposta": "BIÓLOGO",
+    "pistas": [
+      "É uma pessoa",
+      "estuda seres vivos",
+      "trabalha com espécies",
+      "faz observações",
+      "atua na natureza",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 41,
+    "categoria": "Pessoa",
+    "resposta": "QUÍMICO",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha com substâncias",
+      "usa laboratório",
+      "faz reações",
+      "analisa materiais",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 42,
+    "categoria": "Pessoa",
+    "resposta": "FÍSICO",
+    "pistas": [
+      "É uma pessoa",
+      "estuda forças",
+      "trabalha com cálculos",
+      "analisa fenômenos",
+      "usa modelos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 43,
+    "categoria": "Pessoa",
+    "resposta": "GEÓLOGO",
+    "pistas": [
+      "É uma pessoa",
+      "estuda rochas",
+      "analisa solo",
+      "trabalha com mapas",
+      "observa relevo",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 44,
+    "categoria": "Pessoa",
+    "resposta": "ASTRÔNOMO",
+    "pistas": [
+      "É uma pessoa",
+      "observa estrelas",
+      "usa telescópio",
+      "estuda o céu",
+      "trabalha à noite",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 45,
+    "categoria": "Pessoa",
+    "resposta": "METEOROLOGISTA",
+    "pistas": [
+      "É uma pessoa",
+      "estuda o clima",
+      "faz previsões",
+      "usa dados do tempo",
+      "observa nuvens",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 46,
+    "categoria": "Pessoa",
+    "resposta": "PESQUISADOR",
+    "pistas": [
+      "É uma pessoa",
+      "faz estudos",
+      "organiza dados",
+      "escreve relatórios",
+      "trabalha com método",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 47,
+    "categoria": "Pessoa",
+    "resposta": "ECÓLOGO",
+    "pistas": [
+      "É uma pessoa",
+      "estuda ecossistemas",
+      "trabalha com natureza",
+      "observa impactos",
+      "analisa equilíbrio ambiental",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 48,
+    "categoria": "Pessoa",
+    "resposta": "OCEANÓGRAFO",
+    "pistas": [
+      "É uma pessoa",
+      "estuda oceanos",
+      "analisa marés",
+      "trabalha com água",
+      "faz coletas no mar",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 49,
+    "categoria": "Pessoa",
+    "resposta": "PROGRAMADOR",
+    "pistas": [
+      "É uma pessoa",
+      "escreve código",
+      "trabalha em computador",
+      "cria soluções",
+      "testa sistemas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 50,
+    "categoria": "Pessoa",
+    "resposta": "DESENVOLVEDOR",
+    "pistas": [
+      "É uma pessoa",
+      "cria softwares",
+      "usa linguagens",
+      "resolve problemas",
+      "trabalha em equipe",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 51,
+    "categoria": "Pessoa",
+    "resposta": "ANALISTA DE DADOS",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha com números",
+      "gera relatórios",
+      "usa planilhas",
+      "faz gráficos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 52,
+    "categoria": "Pessoa",
+    "resposta": "ENGENHEIRO DE SOFTWARE",
+    "pistas": [
+      "É uma pessoa",
+      "projeta sistemas",
+      "define arquitetura",
+      "coordena desenvolvimento",
+      "garante qualidade",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 53,
+    "categoria": "Pessoa",
+    "resposta": "TÉCNICO DE INFORMÁTICA",
+    "pistas": [
+      "É uma pessoa",
+      "conserta computadores",
+      "instala programas",
+      "configura redes",
+      "faz manutenção",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 54,
+    "categoria": "Pessoa",
+    "resposta": "DESIGNER DE INTERFACE",
+    "pistas": [
+      "É uma pessoa",
+      "cria telas",
+      "trabalha com layout",
+      "pensa em usabilidade",
+      "usa ferramentas gráficas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 55,
+    "categoria": "Pessoa",
+    "resposta": "ADMINISTRADOR DE SISTEMAS",
+    "pistas": [
+      "É uma pessoa",
+      "gerencia servidores",
+      "cuida de acessos",
+      "monitora serviços",
+      "faz backups",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 56,
+    "categoria": "Pessoa",
+    "resposta": "CIENTISTA DE DADOS",
+    "pistas": [
+      "É uma pessoa",
+      "modela dados",
+      "usa estatística",
+      "cria previsões",
+      "trabalha com algoritmos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 57,
+    "categoria": "Pessoa",
+    "resposta": "ESPECIALISTA EM SEGURANÇA",
+    "pistas": [
+      "É uma pessoa",
+      "protege sistemas",
+      "analisa riscos",
+      "previne ataques",
+      "atua com políticas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 58,
+    "categoria": "Pessoa",
+    "resposta": "TESTADOR DE SOFTWARE",
+    "pistas": [
+      "É uma pessoa",
+      "encontra bugs",
+      "faz testes",
+      "verifica qualidade",
+      "segue cenários",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 59,
+    "categoria": "Pessoa",
+    "resposta": "ARQUITETO",
+    "pistas": [
+      "É uma pessoa",
+      "projeta edifícios",
+      "cria plantas",
+      "trabalha com espaços",
+      "planeja construções",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 60,
+    "categoria": "Pessoa",
+    "resposta": "ENGENHEIRO CIVIL",
+    "pistas": [
+      "É uma pessoa",
+      "cuida de obras",
+      "faz cálculos",
+      "supervisiona estruturas",
+      "planeja construções",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 61,
+    "categoria": "Pessoa",
+    "resposta": "MESTRE DE OBRAS",
+    "pistas": [
+      "É uma pessoa",
+      "coordena equipe",
+      "acompanha construção",
+      "organiza materiais",
+      "controla etapas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 62,
+    "categoria": "Pessoa",
+    "resposta": "PEDREIRO",
+    "pistas": [
+      "É uma pessoa",
+      "assenta tijolos",
+      "faz paredes",
+      "trabalha com argamassa",
+      "atua em obras",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 63,
+    "categoria": "Pessoa",
+    "resposta": "CARPINTEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha com madeira",
+      "faz móveis",
+      "usa serra",
+      "cria estruturas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 64,
+    "categoria": "Pessoa",
+    "resposta": "ELETRICISTA",
+    "pistas": [
+      "É uma pessoa",
+      "instala fios",
+      "trabalha com energia",
+      "usa ferramentas",
+      "corrige falhas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 65,
+    "categoria": "Pessoa",
+    "resposta": "ENCANADOR",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha com água",
+      "instala canos",
+      "conserta vazamentos",
+      "usa ferramentas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 66,
+    "categoria": "Pessoa",
+    "resposta": "AZULEJISTA",
+    "pistas": [
+      "É uma pessoa",
+      "assenta pisos",
+      "usa rejunte",
+      "trabalha com revestimento",
+      "mede espaços",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 67,
+    "categoria": "Pessoa",
+    "resposta": "PINTOR DE PAREDE",
+    "pistas": [
+      "É uma pessoa",
+      "pinta superfícies",
+      "usa rolos",
+      "prepara tinta",
+      "faz acabamentos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 68,
+    "categoria": "Pessoa",
+    "resposta": "SERRALHEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha com metal",
+      "faz portões",
+      "usa solda",
+      "corta estruturas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 69,
+    "categoria": "Pessoa",
+    "resposta": "MOTORISTA",
+    "pistas": [
+      "É uma pessoa",
+      "dirige veículos",
+      "faz trajetos",
+      "segue rotas",
+      "usa volante",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 70,
+    "categoria": "Pessoa",
+    "resposta": "PILOTO DE AVIÃO",
+    "pistas": [
+      "É uma pessoa",
+      "conduz aeronaves",
+      "usa cabine",
+      "segue plano de voo",
+      "trabalha em aeroportos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 71,
+    "categoria": "Pessoa",
+    "resposta": "MAQUINISTA",
+    "pistas": [
+      "É uma pessoa",
+      "conduz trem",
+      "atua em ferrovias",
+      "segue sinalização",
+      "controla velocidade",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 72,
+    "categoria": "Pessoa",
+    "resposta": "NAVEGADOR",
+    "pistas": [
+      "É uma pessoa",
+      "orienta rotas",
+      "usa mapas",
+      "atua em navios",
+      "trabalha com bússola",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 73,
+    "categoria": "Pessoa",
+    "resposta": "MARINHEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha no mar",
+      "atua em navios",
+      "faz manobras",
+      "cuida de manutenção",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 74,
+    "categoria": "Pessoa",
+    "resposta": "CICLISTA",
+    "pistas": [
+      "É uma pessoa",
+      "usa bicicleta",
+      "treina resistência",
+      "participa de provas",
+      "usa capacete",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 75,
+    "categoria": "Pessoa",
+    "resposta": "ENTREGADOR",
+    "pistas": [
+      "É uma pessoa",
+      "faz entregas",
+      "usa mochila",
+      "segue rotas",
+      "cumpre prazos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 76,
+    "categoria": "Pessoa",
+    "resposta": "JARDINEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "cuida de plantas",
+      "poda árvores",
+      "usa regador",
+      "trabalha em jardins",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 77,
+    "categoria": "Pessoa",
+    "resposta": "AGRICULTOR",
+    "pistas": [
+      "É uma pessoa",
+      "planta e colhe",
+      "trabalha no campo",
+      "usa ferramentas",
+      "lida com lavoura",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 78,
+    "categoria": "Pessoa",
+    "resposta": "GUIA DE TRILHA",
+    "pistas": [
+      "É uma pessoa",
+      "conduz passeios",
+      "atua na natureza",
+      "usa mapa",
+      "orienta grupos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 79,
+    "categoria": "Pessoa",
+    "resposta": "GUARDA FLORESTAL",
+    "pistas": [
+      "É uma pessoa",
+      "protege áreas",
+      "vigia florestas",
+      "fiscaliza",
+      "atua ao ar livre",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 80,
+    "categoria": "Pessoa",
+    "resposta": "PAISAGISTA",
+    "pistas": [
+      "É uma pessoa",
+      "projeta jardins",
+      "trabalha com plantas",
+      "cria espaços",
+      "pensa em estética",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 81,
+    "categoria": "Pessoa",
+    "resposta": "PESCADOR",
+    "pistas": [
+      "É uma pessoa",
+      "pesca peixes",
+      "usa rede",
+      "trabalha em rios",
+      "faz capturas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 82,
+    "categoria": "Pessoa",
+    "resposta": "APICULTOR",
+    "pistas": [
+      "É uma pessoa",
+      "cuida de abelhas",
+      "produz mel",
+      "usa caixas",
+      "protege colmeias",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 83,
+    "categoria": "Pessoa",
+    "resposta": "BOTÂNICO",
+    "pistas": [
+      "É uma pessoa",
+      "estuda plantas",
+      "faz pesquisas",
+      "trabalha com espécies",
+      "coleta amostras",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 84,
+    "categoria": "Pessoa",
+    "resposta": "COZINHEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "prepara alimentos",
+      "usa panela",
+      "trabalha em cozinha",
+      "segue receitas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 85,
+    "categoria": "Pessoa",
+    "resposta": "CHEF",
+    "pistas": [
+      "É uma pessoa",
+      "comanda cozinha",
+      "cria pratos",
+      "coordena equipe",
+      "planeja cardápio",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 86,
+    "categoria": "Pessoa",
+    "resposta": "CONFEITEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "faz doces",
+      "usa forno",
+      "decora bolos",
+      "trabalha com açúcar",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 87,
+    "categoria": "Pessoa",
+    "resposta": "PADEIRO",
+    "pistas": [
+      "É uma pessoa",
+      "faz pães",
+      "usa forno",
+      "amassa farinha",
+      "trabalha de madrugada",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 88,
+    "categoria": "Pessoa",
+    "resposta": "BARISTA",
+    "pistas": [
+      "É uma pessoa",
+      "faz café",
+      "usa máquina",
+      "cuida de grãos",
+      "prepara bebidas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 89,
+    "categoria": "Pessoa",
+    "resposta": "ADVOGADO",
+    "pistas": [
+      "É uma pessoa",
+      "atua com leis",
+      "defende pessoas",
+      "trabalha com processos",
+      "fala em audiências",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 90,
+    "categoria": "Pessoa",
+    "resposta": "JUIZ",
+    "pistas": [
+      "É uma pessoa",
+      "toma decisões",
+      "atua no tribunal",
+      "interpreta leis",
+      "conduz julgamentos",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 91,
+    "categoria": "Pessoa",
+    "resposta": "PROMOTOR",
+    "pistas": [
+      "É uma pessoa",
+      "representa a sociedade",
+      "atua em processos",
+      "trabalha no fórum",
+      "apresenta denúncias",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 92,
+    "categoria": "Pessoa",
+    "resposta": "ARQUEÓLOGO",
+    "pistas": [
+      "É uma pessoa",
+      "estuda o passado",
+      "faz escavações",
+      "analisa objetos antigos",
+      "trabalha em campo",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 93,
+    "categoria": "Pessoa",
+    "resposta": "PUBLICITÁRIO",
+    "pistas": [
+      "É uma pessoa",
+      "cria campanhas",
+      "trabalha com marcas",
+      "usa criatividade",
+      "atua em agências",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 94,
+    "categoria": "Pessoa",
+    "resposta": "JORNALISTA",
+    "pistas": [
+      "É uma pessoa",
+      "faz reportagens",
+      "entrevista pessoas",
+      "apura informações",
+      "divulga notícias",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 95,
+    "categoria": "Pessoa",
+    "resposta": "FONOAUDIÓLOGO",
+    "pistas": [
+      "É uma pessoa",
+      "cuida da voz",
+      "trabalha com fala",
+      "faz exercícios",
+      "ajuda na comunicação",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 96,
+    "categoria": "Pessoa",
+    "resposta": "ENGENHEIRO MECÂNICO",
+    "pistas": [
+      "É uma pessoa",
+      "trabalha com máquinas",
+      "faz projetos",
+      "analisa peças",
+      "atua em indústrias",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 97,
+    "categoria": "Pessoa",
+    "resposta": "ECONOMISTA",
+    "pistas": [
+      "É uma pessoa",
+      "analisa mercado",
+      "trabalha com finanças",
+      "faz projeções",
+      "estuda economia",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 98,
+    "categoria": "Pessoa",
+    "resposta": "CONTADOR",
+    "pistas": [
+      "É uma pessoa",
+      "organiza contas",
+      "faz balanços",
+      "trabalha com impostos",
+      "atua com empresas",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 99,
+    "categoria": "Pessoa",
+    "resposta": "BARTENDER",
+    "pistas": [
+      "É uma pessoa",
+      "prepara bebidas",
+      "trabalha em bar",
+      "usa coqueteleira",
+      "serve clientes",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  },
+  {
+    "id": 100,
+    "categoria": "Pessoa",
+    "resposta": "GUARDA-PARQUE",
+    "pistas": [
+      "É uma pessoa",
+      "protege áreas naturais",
+      "orienta visitantes",
+      "faz rondas",
+      "atua ao ar livre",
+      "Tem uma rotina",
+      "É conhecido pelo que faz",
+      "Aprendeu com prática ou estudo"
+    ]
+  }
+]

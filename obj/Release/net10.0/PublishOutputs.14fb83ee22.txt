@@ -1,0 +1,5 @@
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\wwwroot\404.html
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\wwwroot\index.html
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\PerfilFamilia.runtimeconfig.json
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\dotnet.js
+C:\Projetos\Temporario\Web\PerfilFamilia\bin\Release\net10.0\publish\web.config

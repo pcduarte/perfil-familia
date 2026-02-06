@@ -1,0 +1,12 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.app-shell[b-ee0gxcs4b2] {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-main[b-ee0gxcs4b2] {
+    flex: 1;
+}
+/* /Layout/NavMenu.razor.rz.scp.css */
+

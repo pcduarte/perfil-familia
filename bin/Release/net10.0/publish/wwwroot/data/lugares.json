@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DO SOL",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do sol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 2,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA LUA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da lua",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 3,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA NEBLINA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da neblina",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 4,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DOS VENTOS",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere dos ventos",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 5,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DAS FLORES",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das flores",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 6,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DAS PEDRAS",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das pedras",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 7,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DAS ÁGUAS",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das águas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 8,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA SERRA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da serra",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 9,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA BRUMA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da bruma",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 10,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DO ENCANTO",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do encanto",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 11,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA COSTA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da costa",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 12,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA FLORESTA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da floresta",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 13,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DO VALE",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do vale",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 14,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA PRAIA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da praia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 15,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DAS ESTRELAS",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das estrelas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 16,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DO JARDIM",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do jardim",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 17,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DO RIO",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do rio",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 18,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DO LAGO",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do lago",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 19,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DA AREIA",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da areia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 20,
+    "categoria": "Lugar",
+    "resposta": "PLANÍCIE DO FAROL",
+    "pistas": [
+      "É um lugar",
+      "área plana",
+      "baixa altitude",
+      "acúmulo de sedimentos",
+      "terreno pouco inclinado",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do farol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 21,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DO SOL",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do sol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 22,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA LUA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da lua",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 23,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA NEBLINA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da neblina",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 24,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DOS VENTOS",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere dos ventos",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 25,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DAS FLORES",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das flores",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 26,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DAS PEDRAS",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das pedras",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 27,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DAS ÁGUAS",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das águas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 28,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA SERRA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da serra",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 29,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA BRUMA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da bruma",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 30,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DO ENCANTO",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do encanto",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 31,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA COSTA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da costa",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 32,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA FLORESTA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da floresta",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 33,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DO VALE",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do vale",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 34,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA PRAIA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da praia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 35,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DAS ESTRELAS",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das estrelas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 36,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DO JARDIM",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do jardim",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 37,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DO RIO",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do rio",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 38,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DO LAGO",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do lago",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 39,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DA AREIA",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da areia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 40,
+    "categoria": "Lugar",
+    "resposta": "PLANALTO DO FAROL",
+    "pistas": [
+      "É um lugar",
+      "área elevada",
+      "superfície irregular",
+      "ação de erosão",
+      "altitudes maiores",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do farol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 41,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DO SOL",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do sol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 42,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA LUA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da lua",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 43,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA NEBLINA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da neblina",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 44,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DOS VENTOS",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere dos ventos",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 45,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DAS FLORES",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das flores",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 46,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DAS PEDRAS",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das pedras",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 47,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DAS ÁGUAS",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das águas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 48,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA SERRA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da serra",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 49,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA BRUMA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da bruma",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 50,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DO ENCANTO",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do encanto",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 51,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA COSTA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da costa",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 52,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA FLORESTA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da floresta",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 53,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DO VALE",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do vale",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 54,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA PRAIA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da praia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 55,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DAS ESTRELAS",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das estrelas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 56,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DO JARDIM",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do jardim",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 57,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DO RIO",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do rio",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 58,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DO LAGO",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do lago",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 59,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DA AREIA",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da areia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 60,
+    "categoria": "Lugar",
+    "resposta": "DEPRESSÃO DO FAROL",
+    "pistas": [
+      "É um lugar",
+      "área rebaixada",
+      "entre regiões mais altas",
+      "inclinação suave",
+      "erosão dominante",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do farol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 61,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DO SOL",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do sol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 62,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA LUA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da lua",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 63,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA NEBLINA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da neblina",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 64,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DOS VENTOS",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere dos ventos",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 65,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DAS FLORES",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das flores",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 66,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DAS PEDRAS",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das pedras",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 67,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DAS ÁGUAS",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das águas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 68,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA SERRA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da serra",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 69,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA BRUMA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da bruma",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 70,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DO ENCANTO",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do encanto",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 71,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA COSTA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da costa",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 72,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA FLORESTA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da floresta",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 73,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DO VALE",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do vale",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 74,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA PRAIA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da praia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 75,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DAS ESTRELAS",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das estrelas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 76,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DO JARDIM",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do jardim",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 77,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DO RIO",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do rio",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 78,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DO LAGO",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do lago",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 79,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DA AREIA",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da areia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 80,
+    "categoria": "Lugar",
+    "resposta": "MONTANHA DO FAROL",
+    "pistas": [
+      "É um lugar",
+      "forma elevada",
+      "altitude alta",
+      "encostas íngremes",
+      "vista panorâmica",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do farol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 81,
+    "categoria": "Lugar",
+    "resposta": "ILHA DO SOL",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do sol",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 82,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA LUA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da lua",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 83,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA NEBLINA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da neblina",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 84,
+    "categoria": "Lugar",
+    "resposta": "ILHA DOS VENTOS",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere dos ventos",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 85,
+    "categoria": "Lugar",
+    "resposta": "ILHA DAS FLORES",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das flores",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 86,
+    "categoria": "Lugar",
+    "resposta": "ILHA DAS PEDRAS",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das pedras",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 87,
+    "categoria": "Lugar",
+    "resposta": "ILHA DAS ÁGUAS",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das águas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 88,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA SERRA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da serra",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 89,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA BRUMA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da bruma",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 90,
+    "categoria": "Lugar",
+    "resposta": "ILHA DO ENCANTO",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do encanto",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 91,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA COSTA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da costa",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 92,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA FLORESTA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da floresta",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 93,
+    "categoria": "Lugar",
+    "resposta": "ILHA DO VALE",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do vale",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 94,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA PRAIA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da praia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 95,
+    "categoria": "Lugar",
+    "resposta": "ILHA DAS ESTRELAS",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere das estrelas",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 96,
+    "categoria": "Lugar",
+    "resposta": "ILHA DO JARDIM",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do jardim",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 97,
+    "categoria": "Lugar",
+    "resposta": "ILHA DO RIO",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do rio",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 98,
+    "categoria": "Lugar",
+    "resposta": "ILHA DO LAGO",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do lago",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 99,
+    "categoria": "Lugar",
+    "resposta": "ILHA DA AREIA",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere da areia",
+      "Pode ser um destino de passeio"
+    ]
+  },
+  {
+    "id": 100,
+    "categoria": "Lugar",
+    "resposta": "ILHA DO FAROL",
+    "pistas": [
+      "É um lugar",
+      "é cercada por água",
+      "pode ser acessada por barco",
+      "tem praias",
+      "vegetação costeira",
+      "Pode receber visitantes",
+      "Tem paisagem marcante",
+      "Pode aparecer em mapas",
+      "O nome sugere do farol",
+      "Pode ser um destino de passeio"
+    ]
+  }
+]
