@@ -1,24 +1,22 @@
 @inherits LayoutComponentBase
 
-<div class="app-shell">
-    <header class="app-header">
-        <div class="brand">
-            <div class="brand-mark">PF</div>
-            <div class="brand-text">
-                <span class="brand-title">Perfil Familia</span>
-                <span class="brand-subtitle">Desafios de pistas para a família</span>
+<div class="min-h-screen bg-[radial-gradient(circle_at_center,#1e293b_0%,#0f172a_100%)] text-slate-100 font-body">
+    <header class="px-6 py-4">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-amber-500 text-slate-900 font-bold flex items-center justify-center">PF</div>
+                <div>
+                    <div class="font-heading text-xl tracking-wide">Perfil Familia</div>
+                    <div class="text-sm text-slate-300">Enigma Tabletop</div>
+                </div>
             </div>
-        </div>
-        <div class="header-actions">
-            <span class="status-pill">Pronto para jogar</span>
+            <div class="text-xs text-slate-300">Mesa ativa</div>
         </div>
     </header>
 
-    <main class="app-main">
-        @Body
+    <main class="px-6 pb-10">
+        <div class="max-w-6xl mx-auto">
+            @Body
+        </div>
     </main>
-
-    <footer class="app-footer">
-        <span>Perfil Familia - jogo de deducao para a familia</span>
-    </footer>
 </div>
