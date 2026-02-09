@@ -70,12 +70,12 @@
     grid-template-columns: 40px 1fr;
     gap: 0.5rem;
     align-items: center;
-    color: #94a3b8;
+    color: #475569;
 }
 
 .clue-hidden span:first-child {
     font-weight: 700;
-    color: #94a3b8;
+    color: #64748b;
 }
 
 .clue-bar {
@@ -210,6 +210,8 @@
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3);
     overflow: hidden;
     position: relative;
+    color: #1e293b;
+    font-family: "Lato", sans-serif;
 }
 
 .perfil-card::before {
@@ -253,6 +255,7 @@
     padding: 0.5rem 0 0.5rem 2.2rem;
     border-bottom: 1px dashed rgba(30, 41, 59, 0.2);
     position: relative;
+    color: #1e293b;
 }
 
 .perfil-card-list li:last-child {
