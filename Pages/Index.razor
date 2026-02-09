@@ -8,224 +8,219 @@
 
 @if (FaseAtual == FaseDoJogo.Intro)
 {
-    <section class="min-h-[70vh] grid place-items-center">
-        <div class="w-full max-w-3xl bg-[#FFFBEB] text-slate-800 rounded-[16px] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.5)] p-8">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500 text-slate-900 font-semibold text-xs uppercase tracking-widest">Perfil Familia</div>
-            <h1 class="mt-5 font-heading text-4xl text-slate-900">Enigma Tabletop</h1>
-            <p class="mt-3 text-slate-600 text-lg">
-                Um jogo de pistas em clima de mesa noturna. Cada acerto vale 1 ponto e a vez passa para o proximo jogador.
+    <section class="intro">
+        <div class="intro-card">
+            <div class="intro-badge">Perfil Família</div>
+            <h1>O jogo das pistas</h1>
+            <p class="lead">
+                Descubra o perfil misterioso com pistas progressivas. Cada acerto vale 1 ponto, acertando ou errando
+                a vez passa para o próximo jogador.
             </p>
-            <div class="mt-6 grid gap-3">
-                <div class="bg-white/80 border border-slate-200 rounded-lg px-4 py-3">1. Adicione 2 ou mais jogadores.</div>
-                <div class="bg-white/80 border border-slate-200 rounded-lg px-4 py-3">2. Escolha as categorias das cartas.</div>
-                <div class="bg-white/80 border border-slate-200 rounded-lg px-4 py-3">3. Revele pistas e responda.</div>
+            <div class="intro-steps">
+                <div class="intro-step">
+                    <strong>1.</strong> Adicione 2 ou mais jogadores.
+                </div>
+                <div class="intro-step">
+                    <strong>2.</strong> Escolha as categorias das cartas.
+                </div>
+                <div class="intro-step">
+                    <strong>3.</strong> Revele pistas e responda.
+                </div>
             </div>
-            <div class="mt-6">
-                <button class="btn-primary" @onclick="IrParaPreparacao">Preparar partida</button>
+            <div class="panel-actions">
+                <button class="btn primary" @onclick="IrParaPreparacao">Preparar partida</button>
             </div>
         </div>
     </section>
 }
 else if (FaseAtual == FaseDoJogo.Preparacao)
 {
-    <section class="grid gap-6">
-        <div class="bg-[#FFFBEB] text-slate-800 rounded-[16px] shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3)] p-6">
-            <div class="flex items-center justify-between">
-                <div>
-                    <h2 class="font-heading text-2xl">Configurar partida</h2>
-                    <p class="text-slate-600">Monte sua mesa e escolha as categorias.</p>
-                </div>
-            </div>
+    <section class="panel">
+        <div class="panel-header">
+            <h2>Configurar partida</h2>
+            <p>Crie sua mesa e escolha as categorias do baralho.</p>
+        </div>
 
-            <div class="mt-6 grid gap-6 md:grid-cols-2">
-                <div>
-                    <h3 class="font-semibold text-slate-800">Jogadores</h3>
-                    <div class="mt-3 grid gap-3 sm:grid-cols-[1fr_auto]">
-                        <input class="input-trivia" @bind="NovoJogador" placeholder="Nome do jogador" />
-                        <button class="btn-secondary" @onclick="AdicionarJogador">Adicionar</button>
-                    </div>
-                    @if (Jogadores.Count == 0)
-                    {
-                        <p class="mt-3 text-sm text-slate-500">Adicione pelo menos 2 jogadores para iniciar.</p>
-                    }
-                    else
-                    {
-                        <div class="mt-4 flex flex-wrap gap-2">
-                            @foreach (var jogador in Jogadores)
-                            {
-                                <span class="px-3 py-1 bg-slate-100 rounded-full text-sm flex items-center gap-2">
-                                    @jogador.Nome
-                                    <button class="text-slate-500 hover:text-red-500" @onclick="() => RemoverJogador(jogador)">x</button>
-                                </span>
-                            }
-                        </div>
-                    }
+        <div class="grid">
+            <div class="stack">
+                <h3>Jogadores</h3>
+                <div class="inline-form">
+                    <input class="input" @bind="NovoJogador" placeholder="Nome do jogador" />
+                    <button class="btn primary" @onclick="AdicionarJogador">Adicionar</button>
                 </div>
 
-                <div>
-                    <h3 class="font-semibold text-slate-800">Categorias</h3>
-                    <div class="mt-3 grid gap-2 sm:grid-cols-2">
-                        @foreach (var categoria in Categorias)
+                @if (Jogadores.Count == 0)
+                {
+                    <p class="muted">Adicione pelo menos 2 jogadores para iniciar.</p>
+                }
+                else
+                {
+                    <div class="chips">
+                        @foreach (var jogador in Jogadores)
                         {
-                            var selecionado = CategoriaSelecionada[categoria.Chave];
-                            <label class="category-card">
-                                <input type="checkbox" checked="@selecionado" @onchange="(e) => AlternarCategoria(categoria.Chave, e)" />
-                                <div>
-                                    <span class="category-icon">@GetCategoriaBadge(categoria.Chave)</span>
-                                    <strong>@categoria.Titulo</strong>
-                                </div>
-                            </label>
+                            <div class="chip removable">
+                                <span>@jogador.Nome</span>
+                                <button class="icon-button" @onclick="() => RemoverJogador(jogador)" aria-label="Remover jogador">
+                                    x
+                                </button>
+                            </div>
                         }
                     </div>
-                    <p class="mt-2 text-xs text-slate-500">Selecione ao menos uma categoria.</p>
+                }
+            </div>
+
+            <div class="stack">
+                <h3>Categorias</h3>
+                <div class="category-grid">
+                    @foreach (var categoria in Categorias)
+                    {
+                        var selecionado = CategoriaSelecionada[categoria.Chave];
+                        <label class="category-card">
+                            <input type="checkbox" checked="@selecionado" @onchange="(e) => AlternarCategoria(categoria.Chave, e)" />
+                            <div>
+                                <span class="category-icon">@GetCategoriaBadge(categoria.Chave)</span>
+                                <strong>@categoria.Titulo</strong>
+                            </div>
+                        </label>
+                    }
                 </div>
+                <p class="muted">Selecione pelo menos uma categoria.</p>
             </div>
+        </div>
 
-            @if (!string.IsNullOrWhiteSpace(Erro))
-            {
-                <div class="mt-4 px-4 py-3 rounded-lg bg-red-100 text-red-700">@Erro</div>
-            }
+        @if (!string.IsNullOrWhiteSpace(Erro))
+        {
+            <div class="alert">@Erro</div>
+        }
 
-            <div class="mt-6 flex flex-wrap gap-3">
-                <button class="btn-primary" @onclick="IniciarJogo" disabled="@(Jogadores.Count < 2 || EstaCarregando)">
-                    @(EstaCarregando ? "Carregando..." : "Iniciar partida")
-                </button>
-            </div>
+        <div class="panel-actions">
+            <button class="btn primary" @onclick="IniciarJogo" disabled="@(Jogadores.Count < 2 || EstaCarregando)">
+                @(EstaCarregando ? "Carregando..." : "Iniciar partida")
+            </button>
         </div>
     </section>
 }
 else if (FaseAtual == FaseDoJogo.EmJogo)
 {
-    <section class="grid gap-6">
-        <div class="flex flex-wrap items-center justify-between gap-3 text-slate-200">
+    <section class="panel">
+        <div class="panel-header">
             <div>
-                <h2 class="font-heading text-2xl">Vez de @Jogadores[JogadorAtual].Nome</h2>
-                <p class="text-sm text-slate-400">Baralho restante: @Baralho.Count carta(s)</p>
+                <h2>Vez de @Jogadores[JogadorAtual].Nome</h2>
+                <p>Baralho restante: @Baralho.Count carta(s)</p>
             </div>
-            <div class="text-xs uppercase tracking-widest bg-slate-800/60 px-3 py-1 rounded-full">Pista @PistasReveladas de @TotalPistas</div>
+            <div class="score-pill">Pista @PistasReveladas de @TotalPistas</div>
         </div>
 
         @if (CartaAtual != null)
         {
-            <div class="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-                <div class="perfil-card @GetCategoriaClass(CartaAtual.Categoria) @(ResultadoAtual == ResultadoTurno.Acerto ? "card-success" : ResultadoAtual == ResultadoTurno.Erro ? "card-error" : string.Empty)">
+            <div class="turn-area">
+                <div class="perfil-card @GetCategoriaClass(CartaAtual.Categoria)">
                     <div class="perfil-card-header">
                         <span class="perfil-card-category">@CartaAtual.Categoria</span>
-                        <span class="perfil-card-count">Carta</span>
+                        <span class="perfil-card-count">Pista @PistasReveladas de @TotalPistas</span>
                     </div>
                     <div class="perfil-card-title">@GetPerguntaPorCategoria(CartaAtual.Categoria)</div>
                     <ol class="perfil-card-list">
-                        @for (var i = 0; i < CartaAtual.Pistas.Count; i++)
+                        @for (var i = 0; i < PistasReveladas; i++)
                         {
-                            if (i < PistasReveladas)
-                            {
-                                var isAtual = i == PistasReveladas - 1;
-                                <li class="@(isAtual ? "clue-current clue-reveal" : "")">@CartaAtual.Pistas[i]</li>
-                            }
-                            else
-                            {
-                                <li class="clue-hidden"><span>???</span><span class="clue-bar"></span></li>
-                            }
+                            <li>@CartaAtual.Pistas[i]</li>
                         }
                     </ol>
                 </div>
 
-                <div class="bg-[#FFFBEB] text-slate-800 rounded-[16px] shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3)] p-6">
-                    <h3 class="font-heading text-xl">Seu palpite</h3>
-                    <input class="input-trivia mt-3" @bind="Palpite" placeholder="Qual e o seu palpite?" />
+                <div class="answer-card">
+                    <h3>Seu palpite</h3>
+                    <input class="input" @bind="Palpite" placeholder="Digite seu palpite" />
+                    <div class="button-row">
+                        <button class="btn secondary" @onclick="RevelarPista" disabled="@(!PodeRevelarPista || PistaReveladaNesteTurno || CartaEncerrada)">Revelar pista</button>
+                        <button class="btn primary" @onclick="ConfirmarPalpite" disabled="@CartaEncerrada">Responder</button>
+                        <button class="btn ghost" @onclick="PassarVez" disabled="@CartaEncerrada">Passar</button>
+                    </div>
 
-                    <div class="mt-4 grid gap-3">
-                        <div class="grid grid-cols-2 gap-3">
-                            <button class="btn-secondary" @onclick="RevelarPista" disabled="@(!PodeRevelarPista || PistaReveladaNesteTurno || CartaEncerrada)">Revelar pista</button>
-                            <button class="btn-primary" @onclick="ConfirmarPalpite" disabled="@CartaEncerrada">Responder</button>
-                        </div>
-                        <div class="grid grid-cols-2 gap-3">
-                            <button class="btn-tertiary" @onclick="PassarVez" disabled="@CartaEncerrada">Passar vez</button>
-                            <button class="btn-secondary" @onclick="MostrarResposta" disabled="@MostrarRespostaNaTela || CartaEncerrada">Mostrar resposta</button>
-                        </div>
-                        <button class="btn-primary" @onclick="ProximaCarta" disabled="@(!CartaEncerrada && !MostrarRespostaNaTela)">Proxima carta</button>
+                    <div class="button-row">
+                        <button class="btn ghost" @onclick="MostrarResposta" disabled="@MostrarRespostaNaTela || CartaEncerrada">Mostrar resposta</button>
+                        <button class="btn" @onclick="ProximaCarta" disabled="@(!CartaEncerrada && !MostrarRespostaNaTela)">Proxima carta</button>
                     </div>
                 </div>
             </div>
-        }
 
-        @if (MostrarRespostaNaTela && CartaAtual != null)
-        {
-            <div class="bg-amber-100 text-amber-900 rounded-lg px-4 py-3">Resposta: <strong>@CartaAtual.Resposta</strong></div>
+            @if (MostrarRespostaNaTela)
+            {
+                <div class="answer-reveal">
+                    <span>Resposta:</span>
+                    <strong>@CartaAtual.Resposta</strong>
+                </div>
+            }
         }
     </section>
 
-    <section class="mt-8">
-        <h3 class="font-heading text-xl text-slate-200">Pontuacao</h3>
-        <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    @if (MostrarOverlayTurno)
+    {
+        <div class="turn-overlay" @onclick="FecharOverlayTurno">
+            <div class="turn-overlay-card" @onclick:stopPropagation="true">
+                <p class="eyebrow">Troca de turno</p>
+                <h2>Agora e a vez de</h2>
+                <div class="turn-name">@Jogadores[JogadorAtual].Nome</div>
+                <button class="btn primary" @onclick="FecharOverlayTurno">Pronto</button>
+            </div>
+        </div>
+    }
+
+    @if (MostrarOverlayMensagem)
+    {
+        <div class="turn-overlay" @onclick="FecharOverlayMensagem">
+            <div class="turn-overlay-card message-card" @onclick:stopPropagation="true">
+                <p class="eyebrow">Resultado do turno</p>
+                <h2>@MensagemOverlay</h2>
+                <button class="btn primary" @onclick="FecharOverlayMensagem">Continuar</button>
+            </div>
+        </div>
+    }
+
+    <section class="panel">
+        <div class="panel-header">
+            <h2>Pontuação</h2>
+        </div>
+        <div class="scoreboard">
             @for (var i = 0; i < Jogadores.Count; i++)
             {
                 var jogador = Jogadores[i];
-                var isAtivo = i == JogadorAtual;
-                <div class="bg-[#FFFBEB] text-slate-800 rounded-[16px] shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3)] p-4 flex items-center gap-3 @(isAtivo ? "glow" : "")">
-                    <div class="w-10 h-10 rounded-full bg-blue-500 text-white font-semibold flex items-center justify-center">
-                        @GetIniciais(jogador.Nome)
-                    </div>
-                    <div>
-                        <div class="font-semibold">@jogador.Nome</div>
-                        <div class="text-sm text-slate-600">@jogador.Pontos ponto(s)</div>
-                    </div>
+                <div class="score-item @(i == JogadorAtual ? "active" : string.Empty)">
+                    <span>@jogador.Nome</span>
+                    <strong>@jogador.Pontos</strong>
                 </div>
             }
         </div>
 
-        <div class="mt-4 flex flex-wrap gap-3">
-            <button class="btn-tertiary" @onclick="EncerrarPartida">Encerrar partida</button>
+        <div class="panel-actions">
+            <button class="btn ghost" @onclick="EncerrarPartida">Encerrar partida</button>
         </div>
     </section>
 }
 else
 {
-    <section class="bg-[#FFFBEB] text-slate-800 rounded-[16px] shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3)] p-6">
-        <div>
-            <h2 class="font-heading text-2xl">Fim de partida</h2>
-            <p class="text-slate-600">Confira o ranking final e jogue novamente.</p>
+    <section class="panel">
+        <div class="panel-header">
+            <h2>Fim de partida</h2>
+            <p>Confira o ranking final e jogue novamente.</p>
         </div>
 
-        <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="scoreboard">
             @foreach (var jogador in Jogadores.OrderByDescending(j => j.Pontos))
             {
-                <div class="bg-white rounded-lg border border-slate-200 p-4">
-                    <div class="font-semibold">@jogador.Nome</div>
-                    <div class="text-sm text-slate-600">@jogador.Pontos ponto(s)</div>
+                <div class="score-item">
+                    <span>@jogador.Nome</span>
+                    <strong>@jogador.Pontos</strong>
                 </div>
             }
         </div>
 
-        <div class="mt-6 flex flex-wrap gap-3">
-            <button class="btn-primary" @onclick="ReiniciarPartida">Jogar novamente</button>
-            <button class="btn-secondary" @onclick="VoltarPreparacaoMantendoJogadores">Alterar categorias</button>
-            <button class="btn-tertiary" @onclick="VoltarAoLobby">Alterar jogadores</button>
+        <div class="panel-actions">
+            <button class="btn primary" @onclick="ReiniciarPartida">Jogar novamente</button>
+            <button class="btn" @onclick="VoltarPreparacaoMantendoJogadores">Alterar categorias</button>
+            <button class="btn ghost" @onclick="VoltarAoLobby">Alterar jogadores</button>
         </div>
     </section>
-}
-
-@if (MostrarOverlayTurno)
-{
-    <div class="fixed inset-0 bg-black/60 grid place-items-center z-50">
-        <div class="bg-[#FFFBEB] text-slate-800 rounded-[16px] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.5)] p-6 text-center">
-            <p class="text-xs uppercase tracking-widest text-slate-500">Troca de turno</p>
-            <h2 class="font-heading text-2xl mt-2">Agora e a vez de</h2>
-            <div class="text-2xl font-bold text-blue-500">@Jogadores[JogadorAtual].Nome</div>
-            <button class="btn-primary mt-4" @onclick="FecharOverlayTurno">Pronto</button>
-        </div>
-    </div>
-}
-
-@if (MostrarOverlayMensagem)
-{
-    <div class="fixed inset-0 bg-black/60 grid place-items-center z-50">
-        <div class="bg-[#FFFBEB] text-slate-800 rounded-[16px] shadow-[0_10px_15px_-3px_rgba(0,0,0,0.5)] p-6 text-center">
-            <p class="text-xs uppercase tracking-widest text-slate-500">Resultado do turno</p>
-            <h2 class="font-heading text-2xl mt-2">@MensagemOverlay</h2>
-            <button class="btn-primary mt-4" @onclick="FecharOverlayMensagem">Continuar</button>
-        </div>
-    </div>
 }
 
 @code {
@@ -235,13 +230,6 @@ else
         Preparacao,
         EmJogo,
         Finalizado
-    }
-
-    enum ResultadoTurno
-    {
-        Nenhum,
-        Acerto,
-        Erro
     }
 
     sealed record CategoriaInfo(string Chave, string Titulo, string Descricao);
@@ -265,7 +253,6 @@ else
     readonly List<Jogador> Jogadores = new();
 
     FaseDoJogo FaseAtual = FaseDoJogo.Intro;
-    ResultadoTurno ResultadoAtual = ResultadoTurno.Nenhum;
     string NovoJogador = string.Empty;
     string Erro = string.Empty;
     bool EstaCarregando;
@@ -369,7 +356,6 @@ else
         Mensagem = string.Empty;
         Palpite = string.Empty;
         MostrarRespostaNaTela = false;
-        ResultadoAtual = ResultadoTurno.Nenhum;
 
         if (Baralho.Count == 0)
         {
@@ -409,7 +395,7 @@ else
         }
     }
 
-    async Task ConfirmarPalpite()
+    void ConfirmarPalpite()
     {
         if (CartaAtual == null)
         {
@@ -427,13 +413,11 @@ else
             const int pontos = 1;
             Jogadores[JogadorAtual].Pontos += pontos;
             Mensagem = "Acertou! +1 ponto.";
-            await AplicarFeedbackAsync(ResultadoTurno.Acerto);
             MostrarMensagemEAvancar(Mensagem, carregarNovaCarta: true);
         }
         else
         {
             Mensagem = "Não foi dessa vez. Próximo jogador!";
-            await AplicarFeedbackAsync(ResultadoTurno.Erro);
             MostrarMensagemEAvancar(Mensagem, carregarNovaCarta: false);
         }
 
@@ -460,12 +444,12 @@ else
 
     void ProximaCarta()
     {
-        if (!MostrarRespostaNaTela && !CartaEncerrada)
+        if (!MostrarRespostaNaTela)
         {
             return;
         }
 
-        MostrarMensagemEAvancar("Próxima carta!", carregarNovaCarta: true);
+        MostrarMensagemEAvancar("Proxima carta!", carregarNovaCarta: true);
     }
 
     void AvancarJogador(bool mostrarOverlay)
@@ -507,99 +491,6 @@ else
         MostrarOverlayMensagem = true;
         AvancarAposMensagem = true;
         CarregarNovaCartaAposMensagem = carregarNovaCarta;
-    }
-
-    async Task MostrarOverlayAsync()
-    {
-        MostrarOverlayTurno = true;
-        await JS.InvokeVoidAsync("perfil.playTurnSignal");
-    }
-
-    void EncerrarPartida()
-    {
-        FaseAtual = FaseDoJogo.Finalizado;
-    }
-
-    void ReiniciarPartida()
-    {
-        foreach (var jogador in Jogadores)
-        {
-            jogador.Pontos = 0;
-        }
-
-        Baralho.Clear();
-        CartaAtual = null;
-        FaseAtual = FaseDoJogo.Preparacao;
-    }
-
-    void VoltarPreparacaoMantendoJogadores()
-    {
-        foreach (var jogador in Jogadores)
-        {
-            jogador.Pontos = 0;
-        }
-
-        Baralho.Clear();
-        CartaAtual = null;
-        FaseAtual = FaseDoJogo.Preparacao;
-    }
-
-    void VoltarAoLobby()
-    {
-        Jogadores.Clear();
-        ReiniciarPartida();
-    }
-
-    static string GetCategoriaClass(string categoria)
-    {
-        return categoria switch
-        {
-            "Pessoa" => "card-pessoa",
-            "Lugar" => "card-lugar",
-            "Animal" => "card-animal",
-            "Coisa" => "card-coisa",
-            _ => "card-padrao"
-        };
-    }
-
-    static string GetPerguntaPorCategoria(string categoria)
-    {
-        return categoria switch
-        {
-            "Pessoa" => "Quem sou eu?",
-            "Lugar" => "Onde estou?",
-            "Animal" => "Que animal sou eu?",
-            "Coisa" => "Que objeto sou eu?",
-            _ => "Qual é o perfil?"
-        };
-    }
-
-    static string GetCategoriaBadge(string chave)
-    {
-        return chave switch
-        {
-            "pessoas" => "P",
-            "lugares" => "L",
-            "animais" => "A",
-            "coisas" => "C",
-            _ => "?"
-        };
-    }
-
-    static string GetIniciais(string nome)
-    {
-        if (string.IsNullOrWhiteSpace(nome))
-        {
-            return "?";
-        }
-
-        var partes = nome.Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        if (partes.Length == 1)
-        {
-            return partes[0][0].ToString().ToUpperInvariant();
-        }
-
-        return (partes[0][0].ToString() + partes[^1][0].ToString()).ToUpperInvariant();
     }
 
     static bool RespostaConfere(string palpite, string resposta)
@@ -692,10 +583,80 @@ else
         return sb.ToString().Trim();
     }
 
-    async Task AplicarFeedbackAsync(ResultadoTurno resultado)
+    async Task MostrarOverlayAsync()
     {
-        ResultadoAtual = resultado;
-        await Task.Delay(350);
-        ResultadoAtual = ResultadoTurno.Nenhum;
+        MostrarOverlayTurno = true;
+        await JS.InvokeVoidAsync("perfil.playTurnSignal");
+    }
+
+    void EncerrarPartida()
+    {
+        FaseAtual = FaseDoJogo.Finalizado;
+    }
+
+    void ReiniciarPartida()
+    {
+        foreach (var jogador in Jogadores)
+        {
+            jogador.Pontos = 0;
+        }
+
+        Baralho.Clear();
+        CartaAtual = null;
+        FaseAtual = FaseDoJogo.Preparacao;
+    }
+
+    void VoltarPreparacaoMantendoJogadores()
+    {
+        foreach (var jogador in Jogadores)
+        {
+            jogador.Pontos = 0;
+        }
+
+        Baralho.Clear();
+        CartaAtual = null;
+        FaseAtual = FaseDoJogo.Preparacao;
+    }
+
+    void VoltarAoLobby()
+    {
+        Jogadores.Clear();
+        ReiniciarPartida();
+    }
+
+    static string GetCategoriaClass(string categoria)
+    {
+        return categoria switch
+        {
+            "Pessoa" => "card-pessoa",
+            "Lugar" => "card-lugar",
+            "Animal" => "card-animal",
+            "Coisa" => "card-coisa",
+            _ => "card-padrao"
+        };
+    }
+
+    static string GetPerguntaPorCategoria(string categoria)
+    {
+        return categoria switch
+        {
+            "Pessoa" => "Quem sou eu?",
+            "Lugar" => "Onde estou?",
+            "Animal" => "Que animal sou eu?",
+            "Coisa" => "Que objeto sou eu?",
+            _ => "Qual é o perfil?"
+        };
+    }
+
+    static string GetCategoriaBadge(string chave)
+    {
+        return chave switch
+        {
+            "pessoas" => "P",
+            "lugares" => "L",
+            "animais" => "A",
+            "coisas" => "C",
+            _ => "?"
+        };
     }
 }
