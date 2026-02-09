@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "PerfilFamilia",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-DlDk8xox+Y/E5kdLwnZis8bogmCJgFAWhtaPFDcHxw4=",
+    "hash": "sha256-K6l6nIHh4vNR//UrNhICEzNaeHExxNUZLAaTO0jq9ek=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.cs8mcre4gh.js"
@@ -1034,15 +1034,15 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "PerfilFamilia.wasm",
-        "name": "PerfilFamilia.lri3cey3wf.wasm",
-        "integrity": "sha256-weURmb1SbJI1WNdBBh7l7QtUO5ty/2liVUckubWGEWo="
+        "name": "PerfilFamilia.4rws6vm8o5.wasm",
+        "integrity": "sha256-MGk+NgpJGKPlsV3b6lY4Pn0bhLTgo0HWgLljGztQUOo="
       }
     ],
     "pdb": [
       {
         "virtualPath": "PerfilFamilia.pdb",
-        "name": "PerfilFamilia.ahtkjufu13.pdb",
-        "integrity": "sha256-Pm1PxiFpB1ZjzwPIoPNiJumIL3dOVnLW450J17I3sOw="
+        "name": "PerfilFamilia.n3w5xgc0hw.pdb",
+        "integrity": "sha256-w/KBBUny6VFE8FFhn7mkZfTBWH4ww06Qfx6cWl6ecj4="
       }
     ]
   },

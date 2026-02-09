@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerfilFamilia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12ab26e581042ac9507d33ed585f439b8acd45f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f40f579463a6af3d791ecf1aa4a78601923a9917")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerfilFamilia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerfilFamilia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

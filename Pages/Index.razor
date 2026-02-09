@@ -119,7 +119,7 @@ else if (FaseAtual == FaseDoJogo.EmJogo)
                         <span class="perfil-card-category">@CartaAtual.Categoria</span>
                         <span class="perfil-card-count">Pista @PistasReveladas de @TotalPistas</span>
                     </div>
-                    <div class="perfil-card-title">Quem sou eu?</div>
+                    <div class="perfil-card-title">@GetPerguntaPorCategoria(CartaAtual.Categoria)</div>
                     <ol class="perfil-card-list">
                         @for (var i = 0; i < PistasReveladas; i++)
                         {
@@ -132,14 +132,14 @@ else if (FaseAtual == FaseDoJogo.EmJogo)
                     <h3>Seu palpite</h3>
                     <input class="input" @bind="Palpite" placeholder="Digite seu palpite" />
                     <div class="button-row">
-                        <button class="btn" @onclick="RevelarPista" disabled="@(!PodeRevelarPista || PistaReveladaNesteTurno)">Revelar pista</button>
-                        <button class="btn primary" @onclick="ConfirmarPalpite">Responder</button>
-                        <button class="btn ghost" @onclick="PassarVez">Passar</button>
+                        <button class="btn secondary" @onclick="RevelarPista" disabled="@(!PodeRevelarPista || PistaReveladaNesteTurno || CartaEncerrada)">Revelar pista</button>
+                        <button class="btn primary" @onclick="ConfirmarPalpite" disabled="@CartaEncerrada">Responder</button>
+                        <button class="btn ghost" @onclick="PassarVez" disabled="@CartaEncerrada">Passar</button>
                     </div>
 
                     <div class="button-row">
-                        <button class="btn ghost" @onclick="MostrarResposta" disabled="@MostrarRespostaNaTela">Mostrar resposta</button>
-                        <button class="btn" @onclick="ProximaCarta" disabled="@(!MostrarRespostaNaTela)">Proxima carta</button>
+                        <button class="btn ghost" @onclick="MostrarResposta" disabled="@MostrarRespostaNaTela || CartaEncerrada">Mostrar resposta</button>
+                        <button class="btn" @onclick="ProximaCarta" disabled="@(!CartaEncerrada && !MostrarRespostaNaTela)">Proxima carta</button>
                     </div>
                 </div>
             </div>
@@ -273,6 +273,7 @@ else
 
     int TotalPistas => CartaAtual?.Pistas.Count ?? 0;
     bool PodeRevelarPista => CartaAtual != null && PistasReveladas < CartaAtual.Pistas.Count;
+    bool CartaEncerrada => CartaAtual != null && PistasReveladas >= CartaAtual.Pistas.Count;
 
     void AdicionarJogador()
     {
@@ -381,6 +382,10 @@ else
             PistasReveladas++;
             PistaReveladaNesteTurno = true;
             Mensagem = string.Empty;
+            if (CartaAtual != null && PistasReveladas >= CartaAtual.Pistas.Count)
+            {
+                MostrarRespostaNaTela = true;
+            }
         }
         else
         {
@@ -628,6 +633,18 @@ else
             "Animal" => "card-animal",
             "Coisa" => "card-coisa",
             _ => "card-padrao"
+        };
+    }
+
+    static string GetPerguntaPorCategoria(string categoria)
+    {
+        return categoria switch
+        {
+            "Pessoa" => "Quem sou eu?",
+            "Lugar" => "Onde estou?",
+            "Animal" => "Que animal sou eu?",
+            "Coisa" => "Que objeto sou eu?",
+            _ => "Qual é o perfil?"
         };
     }
 

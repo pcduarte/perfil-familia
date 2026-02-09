@@ -221,9 +221,11 @@ a {
 .btn {
     border: 1px solid var(--border);
     background: var(--surface);
-    padding: 0.7rem 1.1rem;
+    padding: 0.7rem 1rem;
     border-radius: 12px;
     font-weight: 600;
+    min-height: 44px;
+    line-height: 1.1;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -239,6 +241,13 @@ a {
     border: none;
 }
 
+.btn.secondary {
+    background: #ffffff;
+    border-color: #d4b15a;
+    color: #6b4b00;
+    box-shadow: inset 0 0 0 1px rgba(241, 192, 75, 0.4);
+}
+
 .btn.ghost {
     background: transparent;
     color: var(--secondary);
@@ -250,6 +259,11 @@ a {
     cursor: not-allowed;
     transform: none;
     box-shadow: none;
+}
+
+.btn:focus-visible {
+    outline: 3px solid rgba(241, 192, 75, 0.7);
+    outline-offset: 2px;
 }
 
 .chips {
@@ -485,8 +499,9 @@ a {
 
 .answer-card .btn {
     width: 100%;
-    padding: 0.6rem 0.8rem;
+    padding: 0.65rem 0.75rem;
     font-size: 0.95rem;
+    min-height: 44px;
 }
 
 .button-row {
